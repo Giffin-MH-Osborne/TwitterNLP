@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Twitter Sentiment Analysis</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link type='text/css' href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+                    
+    </head>
+    <body>
+        <div class="pt-3">
+            <div id='title' class="d-flex justify-content-center">
+                <div>
+                    <h1>Tweet Sentiment Analysis</h1>
+                </div>
+            </div>
+            {% if pred != "" %}
+            <div class="d-flex justify-content-center">
+                <div class="py-4">
+                    <h1>{{ pred }}</h1>
+                </div>
+            </div>
+            {% endif %}
+            <div class="px-4 d-flex justify-content-center">
+                <div class="px-2 col-7">
+                    <form action="{{url_for ('predict')}}" method="post">
+                        <div class="card w-100 px-2">
+                            <h2>Tweet Information</h2>
+                            <div class="form-group pt-2">
+                                <label for="username" class="form-label">UserName</label>
+                                <input class='form-control' type="text" name="username" placeholder="User Name" 
+                                pattern="[A-Za-z1-3\_]+" required="required">
+                            </div>
+                            <div class="form-group pt-2">
+                                <label for="ScreenName" class="form-label">ScreenName</label>
+                                <input class='form-control' type="text" name="ScreenName" placeholder="Screen Name" 
+                                pattern="[A-Za-z1-3\_]+" required="required">
+                            </div>
+                            <div class="form-group pt-2">
+                                <label for="location" class="form-label">Location</label>
+                                <input class='form-control' type="text" name="location" placeholder="Location" 
+                                pattern="[A-Za-z]+\,\s[A-Z]+" required="required"> 
+                            </div>
+                            <div class="form-group pt-2">
+                                <label for="tweetDate" class="form-label">Date of Tweet</label>
+                                <input class='form-control' type="date" name="tweetDate" placeholder={{date}} 
+                                min='2006-07-15' max={{date}} required="required">
+                            </div>
+                            <div class="form-group pt-2">
+                                <label for="tweet" class="form-label">Tweet</label>
+                                <textarea name="tweet" class="form-control" required="required" placeholder="Tweet">
+
+                                </textarea>
+                            </div>
+
+                            <div class="d-flex justify-content-center py-3">
+                                <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

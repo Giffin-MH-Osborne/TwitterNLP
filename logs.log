@@ -1,0 +1,2452 @@
+2023-03-15 12:49:02,448:INFO:Initializing load_model()
+2023-03-15 12:49:02,449:INFO:load_model(model_name=models/K_Means_Model, platform=None, authentication=None, verbose=True)
+2023-03-15 12:51:02,398:INFO:Initializing load_model()
+2023-03-15 12:51:02,398:INFO:load_model(model_name=models/K_Means_Model, platform=None, authentication=None, verbose=True)
+2023-03-15 12:51:47,849:INFO:Initializing load_model()
+2023-03-15 12:51:47,849:INFO:load_model(model_name=models/K_Means_Model, platform=None, authentication=None, verbose=True)
+2023-03-15 12:53:06,145:INFO:Initializing load_model()
+2023-03-15 12:53:06,146:INFO:load_model(model_name=models/K_Means_Model, platform=None, authentication=None, verbose=True)
+2023-03-15 12:53:57,247:INFO:Initializing load_model()
+2023-03-15 12:53:57,247:INFO:load_model(model_name=models/K_Means_Model, platform=None, authentication=None, verbose=True)
+2023-03-15 12:54:58,588:INFO:Initializing load_model()
+2023-03-15 12:54:58,590:INFO:load_model(model_name=models/K_Means_Model, platform=None, authentication=None, verbose=True)
+2023-03-15 13:05:20,038:INFO:Initializing load_model()
+2023-03-15 13:05:20,039:INFO:load_model(model_name=models/K_Means_Model, platform=None, authentication=None, verbose=True)
+2023-03-15 13:05:57,327:INFO:Initializing load_model()
+2023-03-15 13:05:57,328:INFO:load_model(model_name=models/K_Means_Model, platform=None, authentication=None, verbose=True)
+2023-03-15 13:06:58,553:INFO:Initializing load_model()
+2023-03-15 13:06:58,556:INFO:load_model(model_name=models/K_Means_Model, platform=None, authentication=None, verbose=True)
+2023-03-15 13:08:35,886:INFO:Initializing load_model()
+2023-03-15 13:08:35,888:INFO:load_model(model_name=models/K_Means_Model, platform=None, authentication=None, verbose=True)
+2023-03-15 13:10:55,643:INFO:Initializing load_model()
+2023-03-15 13:10:55,645:INFO:load_model(model_name=models/K_Means_Model, platform=None, authentication=None, verbose=True)
+2023-03-15 13:10:55,710:INFO:Initializing load_model()
+2023-03-15 13:10:55,711:INFO:load_model(model_name=, platform=None, authentication=None, verbose=True)
+2023-03-15 13:15:21,266:INFO:Initializing load_model()
+2023-03-15 13:15:21,268:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-15 13:15:22,099:INFO:Initializing load_model()
+2023-03-15 13:15:22,099:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-15 13:19:51,668:INFO:Initializing load_model()
+2023-03-15 13:19:51,669:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-15 13:19:52,498:INFO:Initializing load_model()
+2023-03-15 13:19:52,498:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-15 13:21:10,076:INFO:Initializing load_model()
+2023-03-15 13:21:10,078:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-15 13:21:10,884:INFO:Initializing load_model()
+2023-03-15 13:21:10,884:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-15 13:22:11,269:INFO:Initializing load_model()
+2023-03-15 13:22:11,271:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-15 13:22:12,173:INFO:Initializing load_model()
+2023-03-15 13:22:12,173:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-15 13:22:13,298:INFO:Initializing predict_model()
+2023-03-15 13:22:13,298:INFO:predict_model(estimator=LdaModel(num_terms=36129, num_topics=4, decay=0.5, chunksize=100), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2023-03-15 13:22:13,298:INFO:Checking exceptions
+2023-03-15 13:22:13,298:INFO:Preloading libraries
+2023-03-15 13:22:13,298:ERROR:Pipeline not found. Exception:
+2023-03-15 13:22:13,306:ERROR:Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/pycaret/internal/tabular.py", line 9044, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2023-03-15 13:22:42,000:INFO:Initializing load_model()
+2023-03-15 13:22:42,001:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-15 13:22:42,759:INFO:Initializing load_model()
+2023-03-15 13:22:42,759:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-15 13:23:18,901:INFO:Initializing load_model()
+2023-03-15 13:23:18,902:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-15 13:23:19,612:INFO:Initializing load_model()
+2023-03-15 13:23:19,612:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-15 13:23:55,080:INFO:Initializing predict_model()
+2023-03-15 13:23:55,080:INFO:predict_model(estimator=LdaModel(num_terms=36129, num_topics=4, decay=0.5, chunksize=100), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2023-03-15 13:23:55,080:INFO:Checking exceptions
+2023-03-15 13:23:55,080:INFO:Preloading libraries
+2023-03-15 13:23:55,080:ERROR:Pipeline not found. Exception:
+2023-03-15 13:23:55,090:ERROR:Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/pycaret/internal/tabular.py", line 9044, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2023-03-16 12:29:39,486:INFO:Initializing load_model()
+2023-03-16 12:29:39,488:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-16 12:29:40,222:INFO:Initializing load_model()
+2023-03-16 12:29:40,222:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 12:30:20,824:INFO:Initializing predict_model()
+2023-03-16 12:30:20,825:INFO:predict_model(estimator=LdaModel(num_terms=36129, num_topics=4, decay=0.5, chunksize=100), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2023-03-16 12:30:20,825:INFO:Checking exceptions
+2023-03-16 12:30:20,825:INFO:Preloading libraries
+2023-03-16 12:30:20,825:ERROR:Pipeline not found. Exception:
+2023-03-16 12:30:20,843:ERROR:Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/pycaret/internal/tabular.py", line 9044, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2023-03-16 12:51:19,183:INFO:Initializing load_model()
+2023-03-16 12:51:19,184:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-16 12:51:19,906:INFO:Initializing load_model()
+2023-03-16 12:51:19,906:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 12:51:56,729:INFO:Initializing predict_model()
+2023-03-16 12:51:56,730:INFO:predict_model(estimator=LdaModel(num_terms=36129, num_topics=4, decay=0.5, chunksize=100), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2023-03-16 12:51:56,731:INFO:Checking exceptions
+2023-03-16 12:51:56,731:INFO:Preloading libraries
+2023-03-16 12:51:56,731:ERROR:Pipeline not found. Exception:
+2023-03-16 12:51:56,739:ERROR:Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/pycaret/internal/tabular.py", line 9044, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2023-03-16 12:55:36,714:INFO:Initializing load_model()
+2023-03-16 12:55:36,716:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-16 12:55:38,162:INFO:Initializing load_model()
+2023-03-16 12:55:38,162:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 12:56:21,850:INFO:Initializing predict_model()
+2023-03-16 12:56:21,851:INFO:predict_model(estimator=LdaModel(num_terms=36129, num_topics=4, decay=0.5, chunksize=100), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2023-03-16 12:56:21,852:INFO:Checking exceptions
+2023-03-16 12:56:21,852:INFO:Preloading libraries
+2023-03-16 12:56:21,852:ERROR:Pipeline not found. Exception:
+2023-03-16 12:56:21,859:ERROR:Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/pycaret/internal/tabular.py", line 9044, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2023-03-16 12:59:29,583:INFO:Initializing load_model()
+2023-03-16 12:59:29,584:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-16 12:59:30,579:INFO:Initializing load_model()
+2023-03-16 12:59:30,579:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 13:01:25,644:INFO:Initializing load_model()
+2023-03-16 13:01:25,646:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-16 13:01:26,426:INFO:Initializing load_model()
+2023-03-16 13:01:26,426:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 13:02:04,021:INFO:Initializing load_model()
+2023-03-16 13:02:04,023:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-16 13:02:04,955:INFO:Initializing load_model()
+2023-03-16 13:02:04,956:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 13:02:07,472:INFO:Initializing predict_model()
+2023-03-16 13:02:07,472:INFO:predict_model(estimator=LdaModel(num_terms=36129, num_topics=4, decay=0.5, chunksize=100), ml_usecase=MLUsecase.CLUSTERING)
+2023-03-16 13:13:15,398:INFO:PyCaret NLP Module
+2023-03-16 13:13:15,399:INFO:version 2.3.10
+2023-03-16 13:13:15,399:INFO:Initializing setup()
+2023-03-16 13:13:15,399:INFO:USI: 91b1
+2023-03-16 13:13:15,400:INFO:setup(data=(1, 6), target=en, custom_stopwords=None, html=True, session_id=None, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 13:13:15,400:INFO:Checking environment
+2023-03-16 13:13:15,400:INFO:python_version: 3.8.2
+2023-03-16 13:13:15,400:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 13:13:15,400:INFO:machine: x86_64
+2023-03-16 13:13:15,428:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 13:13:15,429:INFO:Memory: svmem(total=8589934592, available=2095869952, percent=75.6, used=4834447360, free=26697728, active=2070511616, inactive=1957883904, wired=2763935744)
+2023-03-16 13:13:15,429:INFO:Physical Core: 2
+2023-03-16 13:13:15,429:INFO:Logical Core: 4
+2023-03-16 13:13:15,429:INFO:Checking libraries
+2023-03-16 13:13:15,429:INFO:pd==1.5.3
+2023-03-16 13:13:15,429:INFO:numpy==1.20.3
+2023-03-16 13:13:15,429:INFO:gensim==3.8.3
+2023-03-16 13:13:17,358:INFO:spacy==3.5.0
+2023-03-16 13:13:18,417:INFO:nltk==3.7
+2023-03-16 13:13:18,492:INFO:textblob==0.17.1
+2023-03-16 13:13:18,563:INFO:pyLDAvis==3.2.2
+2023-03-16 13:13:18,620:INFO:wordcloud==1.8.2.2
+2023-03-16 13:13:18,621:INFO:mlflow==2.1.1
+2023-03-16 13:13:18,621:INFO:Checking Exceptions
+2023-03-16 13:13:59,502:INFO:PyCaret NLP Module
+2023-03-16 13:13:59,504:INFO:version 2.3.10
+2023-03-16 13:13:59,504:INFO:Initializing setup()
+2023-03-16 13:13:59,504:INFO:USI: 45e9
+2023-03-16 13:13:59,505:INFO:setup(data=(1, 6), target=en, custom_stopwords=None, html=True, session_id=None, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 13:13:59,505:INFO:Checking environment
+2023-03-16 13:13:59,505:INFO:python_version: 3.8.2
+2023-03-16 13:13:59,505:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 13:13:59,505:INFO:machine: x86_64
+2023-03-16 13:13:59,505:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 13:13:59,505:INFO:Memory: svmem(total=8589934592, available=2146205696, percent=75.0, used=4813258752, free=32337920, active=2158018560, inactive=2109845504, wired=2655240192)
+2023-03-16 13:13:59,505:INFO:Physical Core: 2
+2023-03-16 13:13:59,505:INFO:Logical Core: 4
+2023-03-16 13:13:59,505:INFO:Checking libraries
+2023-03-16 13:13:59,506:INFO:pd==1.5.3
+2023-03-16 13:13:59,506:INFO:numpy==1.20.3
+2023-03-16 13:13:59,506:INFO:gensim==3.8.3
+2023-03-16 13:13:59,506:INFO:spacy==3.5.0
+2023-03-16 13:13:59,506:INFO:nltk==3.7
+2023-03-16 13:13:59,506:INFO:textblob==0.17.1
+2023-03-16 13:13:59,506:INFO:pyLDAvis==3.2.2
+2023-03-16 13:13:59,506:INFO:wordcloud==1.8.2.2
+2023-03-16 13:13:59,506:INFO:mlflow==2.1.1
+2023-03-16 13:13:59,506:INFO:Checking Exceptions
+2023-03-16 13:48:26,866:INFO:Initializing load_model()
+2023-03-16 13:48:26,868:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 13:48:56,550:INFO:Initializing load_model()
+2023-03-16 13:48:56,552:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 13:49:18,998:INFO:Initializing predict_model()
+2023-03-16 13:49:18,998:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['UserName', 'ScreenName',
+                                                       'Location', 'TweetAt',
+                                                       'OriginalTweet',
+                                                       'Topic_0', 'Topic_1',
+                                                       'Topic_2', 'Topic_3'],
+                                      id_columns=['UserName', 'ScreenName'],
+                                      ml_usecase='classification',
+                                      target='Sentiment')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_va...
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Sentiment')),
+                ('fix_perfect', Remove_100(target='Sentiment')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(max_iter=1000, random_state=2532)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-03-16 13:49:18,998:INFO:Checking exceptions
+2023-03-16 13:49:18,998:INFO:Preloading libraries
+2023-03-16 13:50:41,315:INFO:Initializing load_model()
+2023-03-16 13:50:41,317:INFO:load_model(model_name=models/lda_unsupervised, platform=None, authentication=None, verbose=True)
+2023-03-16 13:50:42,046:INFO:Initializing load_model()
+2023-03-16 13:50:42,046:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 13:50:56,116:INFO:Initializing predict_model()
+2023-03-16 13:50:56,116:INFO:predict_model(estimator=LdaModel(num_terms=36129, num_topics=4, decay=0.5, chunksize=100), ml_usecase=MLUsecase.CLUSTERING)
+2023-03-16 15:28:11,713:INFO:Initializing load_model()
+2023-03-16 15:28:11,715:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:29:18,182:INFO:Initializing load_model()
+2023-03-16 15:29:18,184:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:31:08,613:INFO:Initializing load_model()
+2023-03-16 15:31:08,615:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:33:29,056:INFO:Initializing load_model()
+2023-03-16 15:33:29,058:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:37:14,527:INFO:Initializing load_model()
+2023-03-16 15:37:14,529:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:38:08,162:INFO:Initializing load_model()
+2023-03-16 15:38:08,164:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:40:21,733:INFO:Initializing load_model()
+2023-03-16 15:40:21,735:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:40:48,794:INFO:Initializing load_model()
+2023-03-16 15:40:48,796:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:41:41,052:INFO:Initializing load_model()
+2023-03-16 15:41:41,054:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:43:07,588:INFO:Initializing load_model()
+2023-03-16 15:43:07,590:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:43:42,295:INFO:Initializing load_model()
+2023-03-16 15:43:42,297:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:44:39,548:INFO:Initializing load_model()
+2023-03-16 15:44:39,549:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:45:09,968:INFO:Initializing load_model()
+2023-03-16 15:45:09,970:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:45:38,603:INFO:Initializing load_model()
+2023-03-16 15:45:38,605:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:46:04,052:INFO:Initializing load_model()
+2023-03-16 15:46:04,053:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:48:10,490:INFO:Initializing load_model()
+2023-03-16 15:48:10,492:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:49:02,897:INFO:Initializing load_model()
+2023-03-16 15:49:02,898:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:51:32,789:INFO:Initializing load_model()
+2023-03-16 15:51:32,790:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:52:31,441:INFO:Initializing load_model()
+2023-03-16 15:52:31,444:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:53:14,223:INFO:Initializing load_model()
+2023-03-16 15:53:14,224:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:53:26,502:INFO:Initializing load_model()
+2023-03-16 15:53:26,504:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:54:07,863:INFO:Initializing load_model()
+2023-03-16 15:54:07,865:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:54:43,594:INFO:Initializing load_model()
+2023-03-16 15:54:43,596:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:56:04,680:INFO:Initializing load_model()
+2023-03-16 15:56:04,682:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:56:48,818:INFO:Initializing load_model()
+2023-03-16 15:56:48,819:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:57:51,779:INFO:Initializing load_model()
+2023-03-16 15:57:51,780:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 15:59:01,441:INFO:Initializing load_model()
+2023-03-16 15:59:01,442:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 16:01:01,574:INFO:Initializing load_model()
+2023-03-16 16:01:01,577:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 16:02:22,989:INFO:Initializing load_model()
+2023-03-16 16:02:22,991:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 16:02:26,057:INFO:PyCaret NLP Module
+2023-03-16 16:02:26,057:INFO:version 2.3.10
+2023-03-16 16:02:26,058:INFO:Initializing setup()
+2023-03-16 16:02:26,058:INFO:USI: 70a4
+2023-03-16 16:02:26,058:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 16:02:26,058:INFO:Checking environment
+2023-03-16 16:02:26,058:INFO:python_version: 3.8.2
+2023-03-16 16:02:26,058:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 16:02:26,058:INFO:machine: x86_64
+2023-03-16 16:02:26,084:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 16:02:26,085:INFO:Memory: svmem(total=8589934592, available=2130792448, percent=75.2, used=4743811072, free=29990912, active=2101960704, inactive=2023587840, wired=2641850368)
+2023-03-16 16:02:26,085:INFO:Physical Core: 2
+2023-03-16 16:02:26,085:INFO:Logical Core: 4
+2023-03-16 16:02:26,085:INFO:Checking libraries
+2023-03-16 16:02:26,085:INFO:pd==1.5.3
+2023-03-16 16:02:26,085:INFO:numpy==1.20.3
+2023-03-16 16:02:26,379:INFO:gensim==3.8.3
+2023-03-16 16:02:28,305:INFO:spacy==3.5.0
+2023-03-16 16:02:29,176:INFO:nltk==3.7
+2023-03-16 16:02:29,334:INFO:textblob==0.17.1
+2023-03-16 16:02:29,402:INFO:pyLDAvis==3.2.2
+2023-03-16 16:02:29,453:INFO:wordcloud==1.8.2.2
+2023-03-16 16:02:29,453:INFO:mlflow==2.1.1
+2023-03-16 16:02:29,454:INFO:Checking Exceptions
+2023-03-16 16:02:30,466:INFO:Preloading libraries
+2023-03-16 16:02:30,467:INFO:Preparing display monitor
+2023-03-16 16:02:30,485:INFO:Importing libraries
+2023-03-16 16:02:30,485:INFO:Declaring global variables
+2023-03-16 16:02:30,488:INFO:Input provided : dataframe
+2023-03-16 16:02:30,488:INFO:session_id set to : 123
+2023-03-16 16:02:30,488:INFO:Copying training dataset
+2023-03-16 16:02:30,501:INFO:Importing stopwords from nltk
+2023-03-16 16:02:30,691:INFO:Removing numeric characters from the text
+2023-03-16 16:02:31,103:INFO:Removing special characters from the text
+2023-03-16 16:02:33,584:INFO:Tokenizing Words
+2023-03-16 16:02:39,539:INFO:Removing stopwords
+2023-03-16 16:02:43,063:INFO:Extracting Bigrams
+2023-03-16 16:02:52,781:INFO:Extracting Trigrams
+2023-03-16 16:03:09,792:INFO:Lemmatizing tokens
+2023-03-16 16:05:58,472:INFO:Removing stopwords after lemmatizing
+2023-03-16 16:06:00,289:INFO:Creating corpus and dictionary
+2023-03-16 16:06:02,136:INFO:Compiling processed text
+2023-03-16 16:06:02,184:INFO:Compiling information grid
+2023-03-16 16:06:02,188:INFO:setup() succesfully completed......................................
+2023-03-16 16:06:02,190:INFO:Initializing create_model()
+2023-03-16 16:06:02,191:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 16:06:02,191:INFO:Checking exceptions
+2023-03-16 16:06:02,191:INFO:Preloading libraries
+2023-03-16 16:06:02,191:INFO:Preparing display monitor
+2023-03-16 16:06:02,197:INFO:Defining topic model
+2023-03-16 16:06:02,198:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 16:06:02,198:INFO:Defining num_topics parameter
+2023-03-16 16:06:02,199:INFO:num_topics set to: 5
+2023-03-16 16:06:02,203:INFO:LDA multi_core enabled
+2023-03-16 16:06:02,203:INFO:LdaMulticore imported successfully
+2023-03-16 16:10:03,779:INFO:LdaMulticore trained successfully
+2023-03-16 16:10:03,781:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 16:10:03,782:INFO:create_model() succesfully completed......................................
+2023-03-16 16:10:03,784:INFO:Initializing assign_model()
+2023-03-16 16:10:03,784:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 16:10:03,784:INFO:Determining model type
+2023-03-16 16:10:03,784:INFO:model type: lda
+2023-03-16 16:10:03,784:INFO:Checking exceptions
+2023-03-16 16:10:03,784:INFO:Preloading libraries
+2023-03-16 16:10:03,785:INFO:Preparing display monitor
+2023-03-16 16:10:45,626:INFO:PyCaret NLP Module
+2023-03-16 16:10:45,626:INFO:version 2.3.10
+2023-03-16 16:10:45,626:INFO:Initializing setup()
+2023-03-16 16:10:45,626:INFO:USI: 0b20
+2023-03-16 16:10:45,627:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 16:10:45,627:INFO:Checking environment
+2023-03-16 16:10:45,627:INFO:python_version: 3.8.2
+2023-03-16 16:10:45,627:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 16:10:45,627:INFO:machine: x86_64
+2023-03-16 16:10:45,627:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 16:10:45,627:INFO:Memory: svmem(total=8589934592, available=2345357312, percent=72.7, used=4630638592, free=342482944, active=2009415680, inactive=1977905152, wired=2621222912)
+2023-03-16 16:10:45,627:INFO:Physical Core: 2
+2023-03-16 16:10:45,627:INFO:Logical Core: 4
+2023-03-16 16:10:45,627:INFO:Checking libraries
+2023-03-16 16:10:45,627:INFO:pd==1.5.3
+2023-03-16 16:10:45,627:INFO:numpy==1.20.3
+2023-03-16 16:10:45,628:INFO:gensim==3.8.3
+2023-03-16 16:10:45,628:INFO:spacy==3.5.0
+2023-03-16 16:10:45,628:INFO:nltk==3.7
+2023-03-16 16:10:45,628:INFO:textblob==0.17.1
+2023-03-16 16:10:45,628:INFO:pyLDAvis==3.2.2
+2023-03-16 16:10:45,628:INFO:wordcloud==1.8.2.2
+2023-03-16 16:10:45,628:INFO:mlflow==2.1.1
+2023-03-16 16:10:45,628:INFO:Checking Exceptions
+2023-03-16 16:10:46,459:INFO:Preloading libraries
+2023-03-16 16:10:46,459:INFO:Preparing display monitor
+2023-03-16 16:10:46,471:INFO:Importing libraries
+2023-03-16 16:10:46,471:INFO:Declaring global variables
+2023-03-16 16:10:46,473:INFO:Input provided : dataframe
+2023-03-16 16:10:46,473:INFO:session_id set to : 123
+2023-03-16 16:10:46,473:INFO:Copying training dataset
+2023-03-16 16:10:46,484:INFO:Importing stopwords from nltk
+2023-03-16 16:10:46,487:INFO:Removing numeric characters from the text
+2023-03-16 16:10:46,828:INFO:Removing special characters from the text
+2023-03-16 16:10:49,128:INFO:Tokenizing Words
+2023-03-16 16:10:53,850:INFO:Removing stopwords
+2023-03-16 16:10:57,178:INFO:Extracting Bigrams
+2023-03-16 16:11:08,465:INFO:Extracting Trigrams
+2023-03-16 16:11:23,972:INFO:Lemmatizing tokens
+2023-03-16 16:14:57,320:INFO:Initializing load_model()
+2023-03-16 16:14:57,321:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 16:15:34,120:INFO:Initializing load_model()
+2023-03-16 16:15:34,124:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 16:15:58,304:INFO:PyCaret NLP Module
+2023-03-16 16:15:58,306:INFO:version 2.3.10
+2023-03-16 16:15:58,306:INFO:Initializing setup()
+2023-03-16 16:15:58,306:INFO:USI: ec13
+2023-03-16 16:15:58,306:INFO:setup(data=(41158, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 16:15:58,306:INFO:Checking environment
+2023-03-16 16:15:58,306:INFO:python_version: 3.8.2
+2023-03-16 16:15:58,306:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 16:15:58,307:INFO:machine: x86_64
+2023-03-16 16:15:58,334:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 16:15:58,335:INFO:Memory: svmem(total=8589934592, available=2282487808, percent=73.4, used=4957757440, free=16580608, active=2247602176, inactive=2023264256, wired=2710155264)
+2023-03-16 16:15:58,335:INFO:Physical Core: 2
+2023-03-16 16:15:58,335:INFO:Logical Core: 4
+2023-03-16 16:15:58,335:INFO:Checking libraries
+2023-03-16 16:15:58,335:INFO:pd==1.5.3
+2023-03-16 16:15:58,335:INFO:numpy==1.20.3
+2023-03-16 16:15:58,592:INFO:gensim==3.8.3
+2023-03-16 16:16:00,347:INFO:spacy==3.5.0
+2023-03-16 16:16:01,437:INFO:nltk==3.7
+2023-03-16 16:16:01,537:INFO:textblob==0.17.1
+2023-03-16 16:16:01,593:INFO:pyLDAvis==3.2.2
+2023-03-16 16:16:01,636:INFO:wordcloud==1.8.2.2
+2023-03-16 16:16:01,637:INFO:mlflow==2.1.1
+2023-03-16 16:16:01,637:INFO:Checking Exceptions
+2023-03-16 16:16:02,978:INFO:Preloading libraries
+2023-03-16 16:16:02,979:INFO:Preparing display monitor
+2023-03-16 16:16:03,004:INFO:Importing libraries
+2023-03-16 16:16:03,005:INFO:Declaring global variables
+2023-03-16 16:16:03,007:INFO:Input provided : dataframe
+2023-03-16 16:16:03,009:INFO:session_id set to : 123
+2023-03-16 16:16:03,009:INFO:Copying training dataset
+2023-03-16 16:16:03,019:INFO:Importing stopwords from nltk
+2023-03-16 16:16:03,163:INFO:Removing numeric characters from the text
+2023-03-16 16:16:03,627:INFO:Removing special characters from the text
+2023-03-16 16:16:06,936:INFO:Tokenizing Words
+2023-03-16 16:16:12,218:INFO:Removing stopwords
+2023-03-16 16:16:15,801:INFO:Extracting Bigrams
+2023-03-16 16:16:25,281:INFO:Extracting Trigrams
+2023-03-16 16:16:40,752:INFO:Lemmatizing tokens
+2023-03-16 16:19:34,907:INFO:Removing stopwords after lemmatizing
+2023-03-16 16:19:36,719:INFO:Creating corpus and dictionary
+2023-03-16 16:19:38,588:INFO:Compiling processed text
+2023-03-16 16:19:38,626:INFO:Compiling information grid
+2023-03-16 16:19:38,628:INFO:setup() succesfully completed......................................
+2023-03-16 16:19:38,629:INFO:Initializing create_model()
+2023-03-16 16:19:38,629:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 16:19:38,629:INFO:Checking exceptions
+2023-03-16 16:19:38,629:INFO:Preloading libraries
+2023-03-16 16:19:38,629:INFO:Preparing display monitor
+2023-03-16 16:19:38,635:INFO:Defining topic model
+2023-03-16 16:19:38,635:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 16:19:38,636:INFO:Defining num_topics parameter
+2023-03-16 16:19:38,636:INFO:num_topics set to: 5
+2023-03-16 16:19:38,639:INFO:LDA multi_core enabled
+2023-03-16 16:19:38,639:INFO:LdaMulticore imported successfully
+2023-03-16 16:23:50,312:INFO:LdaMulticore trained successfully
+2023-03-16 16:23:50,314:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 16:23:50,314:INFO:create_model() succesfully completed......................................
+2023-03-16 16:23:50,316:INFO:Initializing assign_model()
+2023-03-16 16:23:50,317:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 16:23:50,317:INFO:Determining model type
+2023-03-16 16:23:50,317:INFO:model type: lda
+2023-03-16 16:23:50,317:INFO:Checking exceptions
+2023-03-16 16:23:50,317:INFO:Preloading libraries
+2023-03-16 16:23:50,317:INFO:Preparing display monitor
+2023-03-16 16:24:02,120:INFO:(41158, 13)
+2023-03-16 16:24:02,120:INFO:assign_model() succesfully completed......................................
+2023-03-16 16:24:50,088:INFO:Initializing load_model()
+2023-03-16 16:24:50,088:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 16:25:07,741:INFO:Initializing load_model()
+2023-03-16 16:25:07,742:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 16:27:58,248:INFO:PyCaret NLP Module
+2023-03-16 16:27:58,250:INFO:version 2.3.10
+2023-03-16 16:27:58,250:INFO:Initializing setup()
+2023-03-16 16:27:58,250:INFO:USI: ccf9
+2023-03-16 16:27:58,250:INFO:setup(data=(41158, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 16:27:58,250:INFO:Checking environment
+2023-03-16 16:27:58,251:INFO:python_version: 3.8.2
+2023-03-16 16:27:58,251:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 16:27:58,251:INFO:machine: x86_64
+2023-03-16 16:27:58,266:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 16:27:58,267:INFO:Memory: svmem(total=8589934592, available=2416861184, percent=71.9, used=5063655424, free=33898496, active=2402496512, inactive=2094997504, wired=2661158912)
+2023-03-16 16:27:58,267:INFO:Physical Core: 2
+2023-03-16 16:27:58,268:INFO:Logical Core: 4
+2023-03-16 16:27:58,268:INFO:Checking libraries
+2023-03-16 16:27:58,268:INFO:pd==1.5.3
+2023-03-16 16:27:58,268:INFO:numpy==1.20.3
+2023-03-16 16:27:58,368:INFO:gensim==3.8.3
+2023-03-16 16:27:59,829:INFO:spacy==3.5.0
+2023-03-16 16:28:00,524:INFO:nltk==3.7
+2023-03-16 16:28:00,591:INFO:textblob==0.17.1
+2023-03-16 16:28:00,644:INFO:pyLDAvis==3.2.2
+2023-03-16 16:28:00,675:INFO:wordcloud==1.8.2.2
+2023-03-16 16:28:00,675:INFO:mlflow==2.1.1
+2023-03-16 16:28:00,675:INFO:Checking Exceptions
+2023-03-16 16:28:01,716:INFO:Preloading libraries
+2023-03-16 16:28:01,716:INFO:Preparing display monitor
+2023-03-16 16:28:01,738:INFO:Importing libraries
+2023-03-16 16:28:01,738:INFO:Declaring global variables
+2023-03-16 16:28:01,739:INFO:Input provided : dataframe
+2023-03-16 16:28:01,740:INFO:session_id set to : 123
+2023-03-16 16:28:01,740:INFO:Copying training dataset
+2023-03-16 16:28:01,745:INFO:Importing stopwords from nltk
+2023-03-16 16:28:01,859:INFO:Removing numeric characters from the text
+2023-03-16 16:28:02,238:INFO:Removing special characters from the text
+2023-03-16 16:28:04,533:INFO:Tokenizing Words
+2023-03-16 16:28:09,390:INFO:Removing stopwords
+2023-03-16 16:28:12,673:INFO:Extracting Bigrams
+2023-03-16 16:28:22,074:INFO:Extracting Trigrams
+2023-03-16 16:28:37,480:INFO:Lemmatizing tokens
+2023-03-16 16:31:24,876:INFO:Removing stopwords after lemmatizing
+2023-03-16 16:31:26,714:INFO:Creating corpus and dictionary
+2023-03-16 16:31:28,587:INFO:Compiling processed text
+2023-03-16 16:31:28,627:INFO:Compiling information grid
+2023-03-16 16:31:28,630:INFO:setup() succesfully completed......................................
+2023-03-16 16:31:28,630:INFO:Initializing create_model()
+2023-03-16 16:31:28,631:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 16:31:28,631:INFO:Checking exceptions
+2023-03-16 16:31:28,631:INFO:Preloading libraries
+2023-03-16 16:31:28,631:INFO:Preparing display monitor
+2023-03-16 16:31:28,638:INFO:Defining topic model
+2023-03-16 16:31:28,638:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 16:31:28,639:INFO:Defining num_topics parameter
+2023-03-16 16:31:28,639:INFO:num_topics set to: 5
+2023-03-16 16:31:28,640:INFO:LDA multi_core enabled
+2023-03-16 16:31:28,641:INFO:LdaMulticore imported successfully
+2023-03-16 16:35:25,556:INFO:LdaMulticore trained successfully
+2023-03-16 16:35:25,558:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 16:35:25,559:INFO:create_model() succesfully completed......................................
+2023-03-16 16:35:25,562:INFO:Initializing assign_model()
+2023-03-16 16:35:25,563:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 16:35:25,563:INFO:Determining model type
+2023-03-16 16:35:25,563:INFO:model type: lda
+2023-03-16 16:35:25,563:INFO:Checking exceptions
+2023-03-16 16:35:25,563:INFO:Preloading libraries
+2023-03-16 16:35:25,564:INFO:Preparing display monitor
+2023-03-16 16:35:38,218:INFO:(41158, 13)
+2023-03-16 16:35:38,218:INFO:assign_model() succesfully completed......................................
+2023-03-16 16:37:27,355:INFO:Initializing load_model()
+2023-03-16 16:37:27,355:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 16:37:46,519:INFO:PyCaret NLP Module
+2023-03-16 16:37:46,519:INFO:version 2.3.10
+2023-03-16 16:37:46,519:INFO:Initializing setup()
+2023-03-16 16:37:46,520:INFO:USI: bdf0
+2023-03-16 16:37:46,520:INFO:setup(data=(41158, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 16:37:46,520:INFO:Checking environment
+2023-03-16 16:37:46,520:INFO:python_version: 3.8.2
+2023-03-16 16:37:46,520:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 16:37:46,520:INFO:machine: x86_64
+2023-03-16 16:37:46,535:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 16:37:46,535:INFO:Memory: svmem(total=8589934592, available=2594598912, percent=69.8, used=4849004544, free=28454912, active=2220306432, inactive=2225934336, wired=2628698112)
+2023-03-16 16:37:46,535:INFO:Physical Core: 2
+2023-03-16 16:37:46,535:INFO:Logical Core: 4
+2023-03-16 16:37:46,536:INFO:Checking libraries
+2023-03-16 16:37:46,536:INFO:pd==1.5.3
+2023-03-16 16:37:46,536:INFO:numpy==1.20.3
+2023-03-16 16:37:46,802:INFO:gensim==3.8.3
+2023-03-16 16:37:48,253:INFO:spacy==3.5.0
+2023-03-16 16:37:48,993:INFO:nltk==3.7
+2023-03-16 16:37:49,067:INFO:textblob==0.17.1
+2023-03-16 16:37:49,115:INFO:pyLDAvis==3.2.2
+2023-03-16 16:37:49,144:INFO:wordcloud==1.8.2.2
+2023-03-16 16:37:49,144:INFO:mlflow==2.1.1
+2023-03-16 16:37:49,144:INFO:Checking Exceptions
+2023-03-16 16:37:50,073:INFO:Preloading libraries
+2023-03-16 16:37:50,073:INFO:Preparing display monitor
+2023-03-16 16:37:50,088:INFO:Importing libraries
+2023-03-16 16:37:50,089:INFO:Declaring global variables
+2023-03-16 16:37:50,092:INFO:Input provided : dataframe
+2023-03-16 16:37:50,092:INFO:session_id set to : 123
+2023-03-16 16:37:50,092:INFO:Copying training dataset
+2023-03-16 16:37:50,096:INFO:Importing stopwords from nltk
+2023-03-16 16:37:50,224:INFO:Removing numeric characters from the text
+2023-03-16 16:37:50,565:INFO:Removing special characters from the text
+2023-03-16 16:37:52,842:INFO:Tokenizing Words
+2023-03-16 16:37:57,868:INFO:Removing stopwords
+2023-03-16 16:38:01,174:INFO:Extracting Bigrams
+2023-03-16 16:38:10,415:INFO:Extracting Trigrams
+2023-03-16 16:38:26,833:INFO:Lemmatizing tokens
+2023-03-16 16:41:14,544:INFO:Removing stopwords after lemmatizing
+2023-03-16 16:41:16,362:INFO:Creating corpus and dictionary
+2023-03-16 16:41:18,218:INFO:Compiling processed text
+2023-03-16 16:41:18,256:INFO:Compiling information grid
+2023-03-16 16:41:18,258:INFO:setup() succesfully completed......................................
+2023-03-16 16:41:18,260:INFO:Initializing create_model()
+2023-03-16 16:41:18,260:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 16:41:18,260:INFO:Checking exceptions
+2023-03-16 16:41:18,261:INFO:Preloading libraries
+2023-03-16 16:41:18,261:INFO:Preparing display monitor
+2023-03-16 16:41:18,267:INFO:Defining topic model
+2023-03-16 16:41:18,268:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 16:41:18,268:INFO:Defining num_topics parameter
+2023-03-16 16:41:18,268:INFO:num_topics set to: 5
+2023-03-16 16:41:18,270:INFO:LDA multi_core enabled
+2023-03-16 16:41:18,270:INFO:LdaMulticore imported successfully
+2023-03-16 16:45:21,491:INFO:LdaMulticore trained successfully
+2023-03-16 16:45:21,493:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 16:45:21,494:INFO:create_model() succesfully completed......................................
+2023-03-16 16:45:21,496:INFO:Initializing assign_model()
+2023-03-16 16:45:21,496:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 16:45:21,496:INFO:Determining model type
+2023-03-16 16:45:21,497:INFO:model type: lda
+2023-03-16 16:45:21,497:INFO:Checking exceptions
+2023-03-16 16:45:21,497:INFO:Preloading libraries
+2023-03-16 16:45:21,497:INFO:Preparing display monitor
+2023-03-16 16:45:34,390:INFO:(41158, 13)
+2023-03-16 16:45:34,390:INFO:assign_model() succesfully completed......................................
+2023-03-16 16:47:04,417:INFO:Initializing load_model()
+2023-03-16 16:47:04,417:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 16:47:27,790:INFO:PyCaret NLP Module
+2023-03-16 16:47:27,791:INFO:version 2.3.10
+2023-03-16 16:47:27,791:INFO:Initializing setup()
+2023-03-16 16:47:27,791:INFO:USI: 39fd
+2023-03-16 16:47:27,791:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 16:47:27,791:INFO:Checking environment
+2023-03-16 16:47:27,791:INFO:python_version: 3.8.2
+2023-03-16 16:47:27,791:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 16:47:27,791:INFO:machine: x86_64
+2023-03-16 16:47:27,806:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 16:47:27,806:INFO:Memory: svmem(total=8589934592, available=2637320192, percent=69.3, used=4793765888, free=25026560, active=2204164096, inactive=2273980416, wired=2589601792)
+2023-03-16 16:47:27,807:INFO:Physical Core: 2
+2023-03-16 16:47:27,807:INFO:Logical Core: 4
+2023-03-16 16:47:27,807:INFO:Checking libraries
+2023-03-16 16:47:27,807:INFO:pd==1.5.3
+2023-03-16 16:47:27,807:INFO:numpy==1.20.3
+2023-03-16 16:47:28,069:INFO:gensim==3.8.3
+2023-03-16 16:47:29,554:INFO:spacy==3.5.0
+2023-03-16 16:47:30,306:INFO:nltk==3.7
+2023-03-16 16:47:30,375:INFO:textblob==0.17.1
+2023-03-16 16:47:30,427:INFO:pyLDAvis==3.2.2
+2023-03-16 16:47:30,457:INFO:wordcloud==1.8.2.2
+2023-03-16 16:47:30,457:INFO:mlflow==2.1.1
+2023-03-16 16:47:30,457:INFO:Checking Exceptions
+2023-03-16 16:47:31,308:INFO:Preloading libraries
+2023-03-16 16:47:31,308:INFO:Preparing display monitor
+2023-03-16 16:47:31,324:INFO:Importing libraries
+2023-03-16 16:47:31,325:INFO:Declaring global variables
+2023-03-16 16:47:31,327:INFO:Input provided : dataframe
+2023-03-16 16:47:31,327:INFO:session_id set to : 123
+2023-03-16 16:47:31,327:INFO:Copying training dataset
+2023-03-16 16:47:31,338:INFO:Importing stopwords from nltk
+2023-03-16 16:47:31,449:INFO:Removing numeric characters from the text
+2023-03-16 16:47:31,763:INFO:Removing special characters from the text
+2023-03-16 16:47:33,880:INFO:Tokenizing Words
+2023-03-16 16:47:38,428:INFO:Removing stopwords
+2023-03-16 16:47:41,528:INFO:Extracting Bigrams
+2023-03-16 16:47:50,635:INFO:Extracting Trigrams
+2023-03-16 16:48:05,751:INFO:Lemmatizing tokens
+2023-03-16 16:50:56,834:INFO:Removing stopwords after lemmatizing
+2023-03-16 16:50:58,660:INFO:Creating corpus and dictionary
+2023-03-16 16:51:00,507:INFO:Compiling processed text
+2023-03-16 16:51:00,546:INFO:Compiling information grid
+2023-03-16 16:51:00,548:INFO:setup() succesfully completed......................................
+2023-03-16 16:51:00,549:INFO:Initializing create_model()
+2023-03-16 16:51:00,549:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 16:51:00,549:INFO:Checking exceptions
+2023-03-16 16:51:00,549:INFO:Preloading libraries
+2023-03-16 16:51:00,549:INFO:Preparing display monitor
+2023-03-16 16:51:00,556:INFO:Defining topic model
+2023-03-16 16:51:00,557:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 16:51:00,557:INFO:Defining num_topics parameter
+2023-03-16 16:51:00,557:INFO:num_topics set to: 5
+2023-03-16 16:51:00,561:INFO:LDA multi_core enabled
+2023-03-16 16:51:00,562:INFO:LdaMulticore imported successfully
+2023-03-16 16:55:00,446:INFO:LdaMulticore trained successfully
+2023-03-16 16:55:00,448:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 16:55:00,448:INFO:create_model() succesfully completed......................................
+2023-03-16 16:55:00,450:INFO:Initializing assign_model()
+2023-03-16 16:55:00,451:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 16:55:00,451:INFO:Determining model type
+2023-03-16 16:55:00,451:INFO:model type: lda
+2023-03-16 16:55:00,451:INFO:Checking exceptions
+2023-03-16 16:55:00,451:INFO:Preloading libraries
+2023-03-16 16:55:00,451:INFO:Preparing display monitor
+2023-03-16 16:55:13,363:INFO:(41159, 13)
+2023-03-16 16:55:13,363:INFO:assign_model() succesfully completed......................................
+2023-03-16 16:56:04,173:INFO:Initializing load_model()
+2023-03-16 16:56:04,173:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 16:56:23,064:INFO:PyCaret NLP Module
+2023-03-16 16:56:23,065:INFO:version 2.3.10
+2023-03-16 16:56:23,065:INFO:Initializing setup()
+2023-03-16 16:56:23,065:INFO:USI: d627
+2023-03-16 16:56:23,065:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 16:56:23,065:INFO:Checking environment
+2023-03-16 16:56:23,065:INFO:python_version: 3.8.2
+2023-03-16 16:56:23,066:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 16:56:23,066:INFO:machine: x86_64
+2023-03-16 16:56:23,079:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 16:56:23,080:INFO:Memory: svmem(total=8589934592, available=2439012352, percent=71.6, used=4897763328, free=126844928, active=2324271104, inactive=1837191168, wired=2573492224)
+2023-03-16 16:56:23,080:INFO:Physical Core: 2
+2023-03-16 16:56:23,080:INFO:Logical Core: 4
+2023-03-16 16:56:23,080:INFO:Checking libraries
+2023-03-16 16:56:23,080:INFO:pd==1.5.3
+2023-03-16 16:56:23,080:INFO:numpy==1.20.3
+2023-03-16 16:56:23,158:INFO:gensim==3.8.3
+2023-03-16 16:56:24,592:INFO:spacy==3.5.0
+2023-03-16 16:56:25,596:INFO:nltk==3.7
+2023-03-16 16:56:25,666:INFO:textblob==0.17.1
+2023-03-16 16:56:25,713:INFO:pyLDAvis==3.2.2
+2023-03-16 16:56:25,745:INFO:wordcloud==1.8.2.2
+2023-03-16 16:56:25,746:INFO:mlflow==2.1.1
+2023-03-16 16:56:25,746:INFO:Checking Exceptions
+2023-03-16 16:56:26,702:INFO:Preloading libraries
+2023-03-16 16:56:26,702:INFO:Preparing display monitor
+2023-03-16 16:56:26,716:INFO:Importing libraries
+2023-03-16 16:56:26,716:INFO:Declaring global variables
+2023-03-16 16:56:26,718:INFO:Input provided : dataframe
+2023-03-16 16:56:26,718:INFO:session_id set to : 123
+2023-03-16 16:56:26,718:INFO:Copying training dataset
+2023-03-16 16:56:26,739:INFO:Importing stopwords from nltk
+2023-03-16 16:56:26,844:INFO:Removing numeric characters from the text
+2023-03-16 16:56:27,199:INFO:Removing special characters from the text
+2023-03-16 16:56:29,509:INFO:Tokenizing Words
+2023-03-16 16:56:34,506:INFO:Removing stopwords
+2023-03-16 16:56:37,890:INFO:Extracting Bigrams
+2023-03-16 16:56:47,707:INFO:Extracting Trigrams
+2023-03-16 16:57:02,824:INFO:Lemmatizing tokens
+2023-03-16 16:59:49,733:INFO:Removing stopwords after lemmatizing
+2023-03-16 16:59:51,544:INFO:Creating corpus and dictionary
+2023-03-16 16:59:53,410:INFO:Compiling processed text
+2023-03-16 16:59:53,447:INFO:Compiling information grid
+2023-03-16 16:59:53,449:INFO:setup() succesfully completed......................................
+2023-03-16 16:59:53,449:INFO:Initializing create_model()
+2023-03-16 16:59:53,450:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 16:59:53,450:INFO:Checking exceptions
+2023-03-16 16:59:53,450:INFO:Preloading libraries
+2023-03-16 16:59:53,450:INFO:Preparing display monitor
+2023-03-16 16:59:53,456:INFO:Defining topic model
+2023-03-16 16:59:53,457:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 16:59:53,457:INFO:Defining num_topics parameter
+2023-03-16 16:59:53,457:INFO:num_topics set to: 5
+2023-03-16 16:59:53,459:INFO:LDA multi_core enabled
+2023-03-16 16:59:53,459:INFO:LdaMulticore imported successfully
+2023-03-16 17:03:54,995:INFO:LdaMulticore trained successfully
+2023-03-16 17:03:54,997:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 17:03:54,998:INFO:create_model() succesfully completed......................................
+2023-03-16 17:03:55,000:INFO:Initializing assign_model()
+2023-03-16 17:03:55,000:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 17:03:55,000:INFO:Determining model type
+2023-03-16 17:03:55,001:INFO:model type: lda
+2023-03-16 17:03:55,001:INFO:Checking exceptions
+2023-03-16 17:03:55,001:INFO:Preloading libraries
+2023-03-16 17:03:55,001:INFO:Preparing display monitor
+2023-03-16 17:04:07,141:INFO:(41159, 13)
+2023-03-16 17:04:07,141:INFO:assign_model() succesfully completed......................................
+2023-03-16 17:06:49,167:INFO:Initializing load_model()
+2023-03-16 17:06:49,168:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 17:07:10,322:INFO:PyCaret NLP Module
+2023-03-16 17:07:10,323:INFO:version 2.3.10
+2023-03-16 17:07:10,323:INFO:Initializing setup()
+2023-03-16 17:07:10,324:INFO:USI: 5421
+2023-03-16 17:07:10,324:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 17:07:10,324:INFO:Checking environment
+2023-03-16 17:07:10,324:INFO:python_version: 3.8.2
+2023-03-16 17:07:10,324:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 17:07:10,324:INFO:machine: x86_64
+2023-03-16 17:07:10,344:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 17:07:10,345:INFO:Memory: svmem(total=8589934592, available=2318245888, percent=73.0, used=4885532672, free=23388160, active=2167771136, inactive=1893752832, wired=2717761536)
+2023-03-16 17:07:10,345:INFO:Physical Core: 2
+2023-03-16 17:07:10,345:INFO:Logical Core: 4
+2023-03-16 17:07:10,346:INFO:Checking libraries
+2023-03-16 17:07:10,346:INFO:pd==1.5.3
+2023-03-16 17:07:10,346:INFO:numpy==1.20.3
+2023-03-16 17:07:10,576:INFO:gensim==3.8.3
+2023-03-16 17:07:12,182:INFO:spacy==3.5.0
+2023-03-16 17:07:12,815:INFO:nltk==3.7
+2023-03-16 17:07:12,876:INFO:textblob==0.17.1
+2023-03-16 17:07:12,910:INFO:pyLDAvis==3.2.2
+2023-03-16 17:07:12,933:INFO:wordcloud==1.8.2.2
+2023-03-16 17:07:12,934:INFO:mlflow==2.1.1
+2023-03-16 17:07:12,934:INFO:Checking Exceptions
+2023-03-16 17:07:14,531:INFO:Preloading libraries
+2023-03-16 17:07:14,531:INFO:Preparing display monitor
+2023-03-16 17:07:14,563:INFO:Importing libraries
+2023-03-16 17:07:14,564:INFO:Declaring global variables
+2023-03-16 17:07:14,565:INFO:Input provided : dataframe
+2023-03-16 17:07:14,566:INFO:session_id set to : 123
+2023-03-16 17:07:14,566:INFO:Copying training dataset
+2023-03-16 17:07:14,593:INFO:Importing stopwords from nltk
+2023-03-16 17:07:14,712:INFO:Removing numeric characters from the text
+2023-03-16 17:07:15,152:INFO:Removing special characters from the text
+2023-03-16 17:07:18,171:INFO:Tokenizing Words
+2023-03-16 17:07:23,592:INFO:Removing stopwords
+2023-03-16 17:07:27,282:INFO:Extracting Bigrams
+2023-03-16 17:07:38,649:INFO:Extracting Trigrams
+2023-03-16 17:07:55,423:INFO:Lemmatizing tokens
+2023-03-16 17:10:43,841:INFO:Removing stopwords after lemmatizing
+2023-03-16 17:10:45,648:INFO:Creating corpus and dictionary
+2023-03-16 17:10:47,543:INFO:Compiling processed text
+2023-03-16 17:10:47,583:INFO:Compiling information grid
+2023-03-16 17:10:47,585:INFO:setup() succesfully completed......................................
+2023-03-16 17:10:47,585:INFO:Initializing create_model()
+2023-03-16 17:10:47,586:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 17:10:47,586:INFO:Checking exceptions
+2023-03-16 17:10:47,586:INFO:Preloading libraries
+2023-03-16 17:10:47,586:INFO:Preparing display monitor
+2023-03-16 17:10:47,592:INFO:Defining topic model
+2023-03-16 17:10:47,592:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 17:10:47,592:INFO:Defining num_topics parameter
+2023-03-16 17:10:47,593:INFO:num_topics set to: 5
+2023-03-16 17:10:47,595:INFO:LDA multi_core enabled
+2023-03-16 17:10:47,595:INFO:LdaMulticore imported successfully
+2023-03-16 17:14:45,350:INFO:LdaMulticore trained successfully
+2023-03-16 17:14:45,352:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 17:14:45,352:INFO:create_model() succesfully completed......................................
+2023-03-16 17:14:45,356:INFO:Initializing assign_model()
+2023-03-16 17:14:45,356:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 17:14:45,356:INFO:Determining model type
+2023-03-16 17:14:45,356:INFO:model type: lda
+2023-03-16 17:14:45,357:INFO:Checking exceptions
+2023-03-16 17:14:45,357:INFO:Preloading libraries
+2023-03-16 17:14:45,357:INFO:Preparing display monitor
+2023-03-16 17:14:57,281:INFO:(41159, 13)
+2023-03-16 17:14:57,281:INFO:assign_model() succesfully completed......................................
+2023-03-16 17:30:14,969:INFO:Initializing load_model()
+2023-03-16 17:30:14,971:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 17:31:02,605:INFO:PyCaret NLP Module
+2023-03-16 17:31:02,606:INFO:version 2.3.10
+2023-03-16 17:31:02,606:INFO:Initializing setup()
+2023-03-16 17:31:02,607:INFO:USI: f31c
+2023-03-16 17:31:02,607:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 17:31:02,607:INFO:Checking environment
+2023-03-16 17:31:02,607:INFO:python_version: 3.8.2
+2023-03-16 17:31:02,607:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 17:31:02,607:INFO:machine: x86_64
+2023-03-16 17:31:02,624:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 17:31:02,625:INFO:Memory: svmem(total=8589934592, available=2515857408, percent=70.7, used=4748390400, free=21753856, active=2091728896, inactive=2125131776, wired=2656661504)
+2023-03-16 17:31:02,625:INFO:Physical Core: 2
+2023-03-16 17:31:02,625:INFO:Logical Core: 4
+2023-03-16 17:31:02,625:INFO:Checking libraries
+2023-03-16 17:31:02,625:INFO:pd==1.5.3
+2023-03-16 17:31:02,625:INFO:numpy==1.20.3
+2023-03-16 17:31:02,918:INFO:gensim==3.8.3
+2023-03-16 17:31:04,359:INFO:spacy==3.5.0
+2023-03-16 17:31:05,105:INFO:nltk==3.7
+2023-03-16 17:31:05,177:INFO:textblob==0.17.1
+2023-03-16 17:31:05,227:INFO:pyLDAvis==3.2.2
+2023-03-16 17:31:05,255:INFO:wordcloud==1.8.2.2
+2023-03-16 17:31:05,256:INFO:mlflow==2.1.1
+2023-03-16 17:31:05,256:INFO:Checking Exceptions
+2023-03-16 17:31:06,187:INFO:Preloading libraries
+2023-03-16 17:31:06,187:INFO:Preparing display monitor
+2023-03-16 17:31:06,204:INFO:Importing libraries
+2023-03-16 17:31:06,204:INFO:Declaring global variables
+2023-03-16 17:31:06,206:INFO:Input provided : dataframe
+2023-03-16 17:31:06,206:INFO:session_id set to : 123
+2023-03-16 17:31:06,207:INFO:Copying training dataset
+2023-03-16 17:31:06,224:INFO:Importing stopwords from nltk
+2023-03-16 17:31:06,344:INFO:Removing numeric characters from the text
+2023-03-16 17:31:06,685:INFO:Removing special characters from the text
+2023-03-16 17:31:08,976:INFO:Tokenizing Words
+2023-03-16 17:31:13,921:INFO:Removing stopwords
+2023-03-16 17:31:17,240:INFO:Extracting Bigrams
+2023-03-16 17:31:26,232:INFO:Extracting Trigrams
+2023-03-16 17:31:41,157:INFO:Lemmatizing tokens
+2023-03-16 17:34:25,068:INFO:Removing stopwords after lemmatizing
+2023-03-16 17:34:26,876:INFO:Creating corpus and dictionary
+2023-03-16 17:34:28,725:INFO:Compiling processed text
+2023-03-16 17:34:28,763:INFO:Compiling information grid
+2023-03-16 17:34:28,765:INFO:setup() succesfully completed......................................
+2023-03-16 17:34:28,766:INFO:Initializing create_model()
+2023-03-16 17:34:28,767:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 17:34:28,767:INFO:Checking exceptions
+2023-03-16 17:34:28,767:INFO:Preloading libraries
+2023-03-16 17:34:28,767:INFO:Preparing display monitor
+2023-03-16 17:34:28,774:INFO:Defining topic model
+2023-03-16 17:34:28,774:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 17:34:28,774:INFO:Defining num_topics parameter
+2023-03-16 17:34:28,774:INFO:num_topics set to: 5
+2023-03-16 17:34:28,776:INFO:LDA multi_core enabled
+2023-03-16 17:34:28,776:INFO:LdaMulticore imported successfully
+2023-03-16 17:38:26,431:INFO:LdaMulticore trained successfully
+2023-03-16 17:38:26,433:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 17:38:26,433:INFO:create_model() succesfully completed......................................
+2023-03-16 17:38:26,435:INFO:Initializing assign_model()
+2023-03-16 17:38:26,436:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 17:38:26,436:INFO:Determining model type
+2023-03-16 17:38:26,436:INFO:model type: lda
+2023-03-16 17:38:26,437:INFO:Checking exceptions
+2023-03-16 17:38:26,437:INFO:Preloading libraries
+2023-03-16 17:38:26,437:INFO:Preparing display monitor
+2023-03-16 17:38:38,555:INFO:(41159, 13)
+2023-03-16 17:38:38,555:INFO:assign_model() succesfully completed......................................
+2023-03-16 17:38:39,203:INFO:Initializing predict_model()
+2023-03-16 17:38:39,203:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True,
+                                      features_todrop=['UserName', 'ScreenName',
+                                                       'Location', 'TweetAt',
+                                                       'OriginalTweet',
+                                                       'Topic_0', 'Topic_1',
+                                                       'Topic_2', 'Topic_3'],
+                                      id_columns=['UserName', 'ScreenName'],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Sentiment',
+                                      time_features=[])),
+                ('im...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=2532,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False)]],
+         verbose=False), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-03-16 17:38:39,203:INFO:Checking exceptions
+2023-03-16 17:38:39,203:INFO:Preloading libraries
+2023-03-16 17:40:22,144:INFO:Initializing load_model()
+2023-03-16 17:40:22,144:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 17:40:26,909:INFO:PyCaret NLP Module
+2023-03-16 17:40:26,910:INFO:version 2.3.10
+2023-03-16 17:40:26,910:INFO:Initializing setup()
+2023-03-16 17:40:26,910:INFO:USI: aeed
+2023-03-16 17:40:26,910:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 17:40:26,910:INFO:Checking environment
+2023-03-16 17:40:26,910:INFO:python_version: 3.8.2
+2023-03-16 17:40:26,910:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 17:40:26,910:INFO:machine: x86_64
+2023-03-16 17:40:26,923:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 17:40:26,924:INFO:Memory: svmem(total=8589934592, available=2583494656, percent=69.9, used=4722122752, free=85757952, active=2051932160, inactive=2151424000, wired=2670190592)
+2023-03-16 17:40:26,924:INFO:Physical Core: 2
+2023-03-16 17:40:26,924:INFO:Logical Core: 4
+2023-03-16 17:40:26,924:INFO:Checking libraries
+2023-03-16 17:40:26,924:INFO:pd==1.5.3
+2023-03-16 17:40:26,924:INFO:numpy==1.20.3
+2023-03-16 17:40:27,186:INFO:gensim==3.8.3
+2023-03-16 17:40:28,693:INFO:spacy==3.5.0
+2023-03-16 17:40:29,381:INFO:nltk==3.7
+2023-03-16 17:40:29,445:INFO:textblob==0.17.1
+2023-03-16 17:40:29,492:INFO:pyLDAvis==3.2.2
+2023-03-16 17:40:29,522:INFO:wordcloud==1.8.2.2
+2023-03-16 17:40:29,523:INFO:mlflow==2.1.1
+2023-03-16 17:40:29,523:INFO:Checking Exceptions
+2023-03-16 17:40:30,482:INFO:Preloading libraries
+2023-03-16 17:40:30,483:INFO:Preparing display monitor
+2023-03-16 17:40:30,501:INFO:Importing libraries
+2023-03-16 17:40:30,501:INFO:Declaring global variables
+2023-03-16 17:40:30,503:INFO:Input provided : dataframe
+2023-03-16 17:40:30,503:INFO:session_id set to : 123
+2023-03-16 17:40:30,503:INFO:Copying training dataset
+2023-03-16 17:40:30,519:INFO:Importing stopwords from nltk
+2023-03-16 17:40:30,637:INFO:Removing numeric characters from the text
+2023-03-16 17:40:30,997:INFO:Removing special characters from the text
+2023-03-16 17:40:33,328:INFO:Tokenizing Words
+2023-03-16 17:40:38,444:INFO:Removing stopwords
+2023-03-16 17:40:42,173:INFO:Extracting Bigrams
+2023-03-16 17:40:52,420:INFO:Extracting Trigrams
+2023-03-16 17:41:08,612:INFO:Lemmatizing tokens
+2023-03-16 17:43:54,711:INFO:Removing stopwords after lemmatizing
+2023-03-16 17:43:56,533:INFO:Creating corpus and dictionary
+2023-03-16 17:43:58,398:INFO:Compiling processed text
+2023-03-16 17:43:58,437:INFO:Compiling information grid
+2023-03-16 17:43:58,438:INFO:setup() succesfully completed......................................
+2023-03-16 17:43:58,439:INFO:Initializing create_model()
+2023-03-16 17:43:58,439:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 17:43:58,439:INFO:Checking exceptions
+2023-03-16 17:43:58,439:INFO:Preloading libraries
+2023-03-16 17:43:58,439:INFO:Preparing display monitor
+2023-03-16 17:43:58,446:INFO:Defining topic model
+2023-03-16 17:43:58,447:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 17:43:58,447:INFO:Defining num_topics parameter
+2023-03-16 17:43:58,447:INFO:num_topics set to: 5
+2023-03-16 17:43:58,450:INFO:LDA multi_core enabled
+2023-03-16 17:43:58,450:INFO:LdaMulticore imported successfully
+2023-03-16 17:48:02,600:INFO:LdaMulticore trained successfully
+2023-03-16 17:48:02,602:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 17:48:02,602:INFO:create_model() succesfully completed......................................
+2023-03-16 17:48:02,604:INFO:Initializing assign_model()
+2023-03-16 17:48:02,605:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 17:48:02,605:INFO:Determining model type
+2023-03-16 17:48:02,605:INFO:model type: lda
+2023-03-16 17:48:02,605:INFO:Checking exceptions
+2023-03-16 17:48:02,605:INFO:Preloading libraries
+2023-03-16 17:48:02,605:INFO:Preparing display monitor
+2023-03-16 17:48:14,783:INFO:(41159, 13)
+2023-03-16 17:48:14,783:INFO:assign_model() succesfully completed......................................
+2023-03-16 17:48:15,439:INFO:Initializing predict_model()
+2023-03-16 17:48:15,439:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True,
+                                      features_todrop=['UserName', 'ScreenName',
+                                                       'Location', 'TweetAt',
+                                                       'OriginalTweet',
+                                                       'Topic_0', 'Topic_1',
+                                                       'Topic_2', 'Topic_3'],
+                                      id_columns=['UserName', 'ScreenName'],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Sentiment',
+                                      time_features=[])),
+                ('im...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=2532,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False)]],
+         verbose=False), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-03-16 17:48:15,439:INFO:Checking exceptions
+2023-03-16 17:48:15,439:INFO:Preloading libraries
+2023-03-16 17:51:40,952:INFO:Initializing load_model()
+2023-03-16 17:51:40,954:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 17:52:42,371:INFO:Initializing load_model()
+2023-03-16 17:52:42,371:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 17:53:31,301:INFO:Initializing load_model()
+2023-03-16 17:53:31,301:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 17:54:40,480:INFO:Initializing load_model()
+2023-03-16 17:54:40,482:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 17:57:55,183:INFO:Initializing load_model()
+2023-03-16 17:57:55,184:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 17:58:10,304:INFO:PyCaret NLP Module
+2023-03-16 17:58:10,305:INFO:version 2.3.10
+2023-03-16 17:58:10,305:INFO:Initializing setup()
+2023-03-16 17:58:10,306:INFO:USI: f87b
+2023-03-16 17:58:10,306:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 17:58:10,306:INFO:Checking environment
+2023-03-16 17:58:10,306:INFO:python_version: 3.8.2
+2023-03-16 17:58:10,306:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 17:58:10,306:INFO:machine: x86_64
+2023-03-16 17:58:10,325:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 17:58:10,326:INFO:Memory: svmem(total=8589934592, available=2224517120, percent=74.1, used=4820377600, free=32235520, active=2212016128, inactive=2132983808, wired=2608361472)
+2023-03-16 17:58:10,326:INFO:Physical Core: 2
+2023-03-16 17:58:10,326:INFO:Logical Core: 4
+2023-03-16 17:58:10,326:INFO:Checking libraries
+2023-03-16 17:58:10,326:INFO:pd==1.5.3
+2023-03-16 17:58:10,326:INFO:numpy==1.20.3
+2023-03-16 17:58:10,596:INFO:gensim==3.8.3
+2023-03-16 17:58:12,253:INFO:spacy==3.5.0
+2023-03-16 17:58:12,941:INFO:nltk==3.7
+2023-03-16 17:58:13,007:INFO:textblob==0.17.1
+2023-03-16 17:58:13,052:INFO:pyLDAvis==3.2.2
+2023-03-16 17:58:13,086:INFO:wordcloud==1.8.2.2
+2023-03-16 17:58:13,086:INFO:mlflow==2.1.1
+2023-03-16 17:58:13,086:INFO:Checking Exceptions
+2023-03-16 17:58:14,043:INFO:Preloading libraries
+2023-03-16 17:58:14,043:INFO:Preparing display monitor
+2023-03-16 17:58:14,059:INFO:Importing libraries
+2023-03-16 17:58:14,059:INFO:Declaring global variables
+2023-03-16 17:58:14,062:INFO:Input provided : dataframe
+2023-03-16 17:58:14,063:INFO:session_id set to : 123
+2023-03-16 17:58:14,063:INFO:Copying training dataset
+2023-03-16 17:58:14,078:INFO:Importing stopwords from nltk
+2023-03-16 17:58:14,214:INFO:Removing numeric characters from the text
+2023-03-16 17:58:14,574:INFO:Removing special characters from the text
+2023-03-16 17:58:16,887:INFO:Tokenizing Words
+2023-03-16 17:58:21,820:INFO:Removing stopwords
+2023-03-16 17:58:25,570:INFO:Extracting Bigrams
+2023-03-16 17:58:35,599:INFO:Extracting Trigrams
+2023-03-16 17:58:51,380:INFO:Lemmatizing tokens
+2023-03-16 18:01:53,259:INFO:Removing stopwords after lemmatizing
+2023-03-16 18:01:55,531:INFO:Creating corpus and dictionary
+2023-03-16 18:01:57,943:INFO:Compiling processed text
+2023-03-16 18:01:57,993:INFO:Compiling information grid
+2023-03-16 18:01:57,996:INFO:setup() succesfully completed......................................
+2023-03-16 18:01:57,997:INFO:Initializing create_model()
+2023-03-16 18:01:57,997:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 18:01:57,997:INFO:Checking exceptions
+2023-03-16 18:01:57,997:INFO:Preloading libraries
+2023-03-16 18:01:57,997:INFO:Preparing display monitor
+2023-03-16 18:01:58,007:INFO:Defining topic model
+2023-03-16 18:01:58,007:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 18:01:58,007:INFO:Defining num_topics parameter
+2023-03-16 18:01:58,007:INFO:num_topics set to: 5
+2023-03-16 18:01:58,014:INFO:LDA multi_core enabled
+2023-03-16 18:01:58,014:INFO:LdaMulticore imported successfully
+2023-03-16 18:06:10,282:INFO:LdaMulticore trained successfully
+2023-03-16 18:06:10,284:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 18:06:10,284:INFO:create_model() succesfully completed......................................
+2023-03-16 18:06:10,286:INFO:Initializing assign_model()
+2023-03-16 18:06:10,286:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 18:06:10,286:INFO:Determining model type
+2023-03-16 18:06:10,286:INFO:model type: lda
+2023-03-16 18:06:10,287:INFO:Checking exceptions
+2023-03-16 18:06:10,287:INFO:Preloading libraries
+2023-03-16 18:06:10,287:INFO:Preparing display monitor
+2023-03-16 18:06:22,403:INFO:(41159, 13)
+2023-03-16 18:06:22,404:INFO:assign_model() succesfully completed......................................
+2023-03-16 18:07:52,856:INFO:Initializing load_model()
+2023-03-16 18:07:52,856:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 18:08:07,254:INFO:PyCaret NLP Module
+2023-03-16 18:08:07,255:INFO:version 2.3.10
+2023-03-16 18:08:07,255:INFO:Initializing setup()
+2023-03-16 18:08:07,255:INFO:USI: 3d26
+2023-03-16 18:08:07,255:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 18:08:07,255:INFO:Checking environment
+2023-03-16 18:08:07,255:INFO:python_version: 3.8.2
+2023-03-16 18:08:07,255:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 18:08:07,255:INFO:machine: x86_64
+2023-03-16 18:08:07,275:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 18:08:07,276:INFO:Memory: svmem(total=8589934592, available=2121531392, percent=75.3, used=4668637184, free=15458304, active=1970831360, inactive=1627136000, wired=2697805824)
+2023-03-16 18:08:07,276:INFO:Physical Core: 2
+2023-03-16 18:08:07,276:INFO:Logical Core: 4
+2023-03-16 18:08:07,276:INFO:Checking libraries
+2023-03-16 18:08:07,276:INFO:pd==1.5.3
+2023-03-16 18:08:07,276:INFO:numpy==1.20.3
+2023-03-16 18:08:07,530:INFO:gensim==3.8.3
+2023-03-16 18:08:08,964:INFO:spacy==3.5.0
+2023-03-16 18:08:09,670:INFO:nltk==3.7
+2023-03-16 18:08:09,740:INFO:textblob==0.17.1
+2023-03-16 18:08:09,792:INFO:pyLDAvis==3.2.2
+2023-03-16 18:08:09,822:INFO:wordcloud==1.8.2.2
+2023-03-16 18:08:09,822:INFO:mlflow==2.1.1
+2023-03-16 18:08:09,822:INFO:Checking Exceptions
+2023-03-16 18:08:10,788:INFO:Preloading libraries
+2023-03-16 18:08:10,788:INFO:Preparing display monitor
+2023-03-16 18:08:10,807:INFO:Importing libraries
+2023-03-16 18:08:10,807:INFO:Declaring global variables
+2023-03-16 18:08:10,810:INFO:Input provided : dataframe
+2023-03-16 18:08:10,810:INFO:session_id set to : 123
+2023-03-16 18:08:10,810:INFO:Copying training dataset
+2023-03-16 18:08:10,833:INFO:Importing stopwords from nltk
+2023-03-16 18:08:10,947:INFO:Removing numeric characters from the text
+2023-03-16 18:08:11,319:INFO:Removing special characters from the text
+2023-03-16 18:08:14,028:INFO:Tokenizing Words
+2023-03-16 18:08:19,675:INFO:Removing stopwords
+2023-03-16 18:08:23,370:INFO:Extracting Bigrams
+2023-03-16 18:08:34,015:INFO:Extracting Trigrams
+2023-03-16 18:09:09,464:INFO:Lemmatizing tokens
+2023-03-16 18:12:05,813:INFO:Removing stopwords after lemmatizing
+2023-03-16 18:12:07,780:INFO:Creating corpus and dictionary
+2023-03-16 18:12:10,094:INFO:Compiling processed text
+2023-03-16 18:12:10,153:INFO:Compiling information grid
+2023-03-16 18:12:10,156:INFO:setup() succesfully completed......................................
+2023-03-16 18:12:10,156:INFO:Initializing create_model()
+2023-03-16 18:12:10,157:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 18:12:10,157:INFO:Checking exceptions
+2023-03-16 18:12:10,157:INFO:Preloading libraries
+2023-03-16 18:12:10,157:INFO:Preparing display monitor
+2023-03-16 18:12:10,163:INFO:Defining topic model
+2023-03-16 18:12:10,163:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 18:12:10,164:INFO:Defining num_topics parameter
+2023-03-16 18:12:10,164:INFO:num_topics set to: 5
+2023-03-16 18:12:10,166:INFO:LDA multi_core enabled
+2023-03-16 18:12:10,166:INFO:LdaMulticore imported successfully
+2023-03-16 18:16:27,965:INFO:LdaMulticore trained successfully
+2023-03-16 18:16:27,967:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 18:16:27,967:INFO:create_model() succesfully completed......................................
+2023-03-16 18:16:27,970:INFO:Initializing assign_model()
+2023-03-16 18:16:27,970:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 18:16:27,970:INFO:Determining model type
+2023-03-16 18:16:27,970:INFO:model type: lda
+2023-03-16 18:16:27,970:INFO:Checking exceptions
+2023-03-16 18:16:27,970:INFO:Preloading libraries
+2023-03-16 18:16:27,971:INFO:Preparing display monitor
+2023-03-16 18:16:40,623:INFO:(41159, 13)
+2023-03-16 18:16:40,623:INFO:assign_model() succesfully completed......................................
+2023-03-16 18:17:24,694:INFO:PyCaret NLP Module
+2023-03-16 18:17:24,694:INFO:version 2.3.10
+2023-03-16 18:17:24,694:INFO:Initializing setup()
+2023-03-16 18:17:24,694:INFO:USI: 2728
+2023-03-16 18:17:24,694:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 18:17:24,695:INFO:Checking environment
+2023-03-16 18:17:24,695:INFO:python_version: 3.8.2
+2023-03-16 18:17:24,695:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 18:17:24,695:INFO:machine: x86_64
+2023-03-16 18:17:24,695:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 18:17:24,695:INFO:Memory: svmem(total=8589934592, available=2128101376, percent=75.2, used=4523544576, free=269574144, active=1860337664, inactive=1829490688, wired=2663206912)
+2023-03-16 18:17:24,695:INFO:Physical Core: 2
+2023-03-16 18:17:24,695:INFO:Logical Core: 4
+2023-03-16 18:17:24,695:INFO:Checking libraries
+2023-03-16 18:17:24,695:INFO:pd==1.5.3
+2023-03-16 18:17:24,695:INFO:numpy==1.20.3
+2023-03-16 18:17:24,697:INFO:gensim==3.8.3
+2023-03-16 18:17:24,697:INFO:spacy==3.5.0
+2023-03-16 18:17:24,698:INFO:nltk==3.7
+2023-03-16 18:17:24,698:INFO:textblob==0.17.1
+2023-03-16 18:17:24,698:INFO:pyLDAvis==3.2.2
+2023-03-16 18:17:24,698:INFO:wordcloud==1.8.2.2
+2023-03-16 18:17:24,698:INFO:mlflow==2.1.1
+2023-03-16 18:17:24,698:INFO:Checking Exceptions
+2023-03-16 18:17:25,597:INFO:Preloading libraries
+2023-03-16 18:17:25,597:INFO:Preparing display monitor
+2023-03-16 18:17:25,605:INFO:Importing libraries
+2023-03-16 18:17:25,605:INFO:Declaring global variables
+2023-03-16 18:17:25,607:INFO:Input provided : dataframe
+2023-03-16 18:17:25,607:INFO:session_id set to : 123
+2023-03-16 18:17:25,607:INFO:Copying training dataset
+2023-03-16 18:17:25,623:INFO:Importing stopwords from nltk
+2023-03-16 18:17:25,626:INFO:Removing numeric characters from the text
+2023-03-16 18:17:25,993:INFO:Removing special characters from the text
+2023-03-16 18:17:28,603:INFO:Tokenizing Words
+2023-03-16 18:17:33,798:INFO:Removing stopwords
+2023-03-16 18:17:37,274:INFO:Extracting Bigrams
+2023-03-16 18:17:47,480:INFO:Extracting Trigrams
+2023-03-16 18:18:03,302:INFO:Lemmatizing tokens
+2023-03-16 18:20:58,380:INFO:Removing stopwords after lemmatizing
+2023-03-16 18:21:00,228:INFO:Creating corpus and dictionary
+2023-03-16 18:21:01,965:INFO:Compiling processed text
+2023-03-16 18:21:02,003:INFO:Compiling information grid
+2023-03-16 18:21:02,005:INFO:setup() succesfully completed......................................
+2023-03-16 18:21:02,063:INFO:Initializing create_model()
+2023-03-16 18:21:02,063:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 18:21:02,064:INFO:Checking exceptions
+2023-03-16 18:21:02,064:INFO:Preloading libraries
+2023-03-16 18:21:02,064:INFO:Preparing display monitor
+2023-03-16 18:21:02,073:INFO:Defining topic model
+2023-03-16 18:21:02,073:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 18:21:02,073:INFO:Defining num_topics parameter
+2023-03-16 18:21:02,074:INFO:num_topics set to: 5
+2023-03-16 18:21:02,077:INFO:LDA multi_core enabled
+2023-03-16 18:21:02,077:INFO:LdaMulticore imported successfully
+2023-03-16 18:25:11,133:INFO:LdaMulticore trained successfully
+2023-03-16 18:25:11,135:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 18:25:11,135:INFO:create_model() succesfully completed......................................
+2023-03-16 18:25:11,139:INFO:Initializing assign_model()
+2023-03-16 18:25:11,140:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 18:25:11,140:INFO:Determining model type
+2023-03-16 18:25:11,140:INFO:model type: lda
+2023-03-16 18:25:11,140:INFO:Checking exceptions
+2023-03-16 18:25:11,140:INFO:Preloading libraries
+2023-03-16 18:25:11,141:INFO:Preparing display monitor
+2023-03-16 18:25:24,453:INFO:(41159, 13)
+2023-03-16 18:25:24,453:INFO:assign_model() succesfully completed......................................
+2023-03-16 18:26:14,156:INFO:Initializing load_model()
+2023-03-16 18:26:14,158:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 18:27:24,949:INFO:PyCaret NLP Module
+2023-03-16 18:27:24,950:INFO:version 2.3.10
+2023-03-16 18:27:24,950:INFO:Initializing setup()
+2023-03-16 18:27:24,950:INFO:USI: 30c9
+2023-03-16 18:27:24,950:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 18:27:24,950:INFO:Checking environment
+2023-03-16 18:27:24,950:INFO:python_version: 3.8.2
+2023-03-16 18:27:24,951:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 18:27:24,951:INFO:machine: x86_64
+2023-03-16 18:27:24,971:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 18:27:24,973:INFO:Memory: svmem(total=8589934592, available=2369732608, percent=72.4, used=4664815616, free=187625472, active=1969205248, inactive=1886572544, wired=2695610368)
+2023-03-16 18:27:24,973:INFO:Physical Core: 2
+2023-03-16 18:27:24,973:INFO:Logical Core: 4
+2023-03-16 18:27:24,973:INFO:Checking libraries
+2023-03-16 18:27:24,973:INFO:pd==1.5.3
+2023-03-16 18:27:24,973:INFO:numpy==1.20.3
+2023-03-16 18:27:25,076:INFO:gensim==3.8.3
+2023-03-16 18:27:26,649:INFO:spacy==3.5.0
+2023-03-16 18:27:27,381:INFO:nltk==3.7
+2023-03-16 18:27:27,450:INFO:textblob==0.17.1
+2023-03-16 18:27:27,501:INFO:pyLDAvis==3.2.2
+2023-03-16 18:27:27,531:INFO:wordcloud==1.8.2.2
+2023-03-16 18:27:27,531:INFO:mlflow==2.1.1
+2023-03-16 18:27:27,531:INFO:Checking Exceptions
+2023-03-16 18:27:28,485:INFO:Preloading libraries
+2023-03-16 18:27:28,485:INFO:Preparing display monitor
+2023-03-16 18:27:28,505:INFO:Importing libraries
+2023-03-16 18:27:28,506:INFO:Declaring global variables
+2023-03-16 18:27:28,511:INFO:Input provided : dataframe
+2023-03-16 18:27:28,511:INFO:session_id set to : 123
+2023-03-16 18:27:28,511:INFO:Copying training dataset
+2023-03-16 18:27:28,529:INFO:Importing stopwords from nltk
+2023-03-16 18:27:28,667:INFO:Removing numeric characters from the text
+2023-03-16 18:27:29,027:INFO:Removing special characters from the text
+2023-03-16 18:27:31,441:INFO:Tokenizing Words
+2023-03-16 18:27:36,475:INFO:Removing stopwords
+2023-03-16 18:27:39,922:INFO:Extracting Bigrams
+2023-03-16 18:27:49,440:INFO:Extracting Trigrams
+2023-03-16 18:28:04,920:INFO:Lemmatizing tokens
+2023-03-16 18:30:57,261:INFO:Removing stopwords after lemmatizing
+2023-03-16 18:30:59,082:INFO:Creating corpus and dictionary
+2023-03-16 18:31:01,006:INFO:Compiling processed text
+2023-03-16 18:31:01,044:INFO:Compiling information grid
+2023-03-16 18:31:01,046:INFO:setup() succesfully completed......................................
+2023-03-16 18:31:01,047:INFO:Initializing create_model()
+2023-03-16 18:31:01,047:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 18:31:01,047:INFO:Checking exceptions
+2023-03-16 18:31:01,047:INFO:Preloading libraries
+2023-03-16 18:31:01,047:INFO:Preparing display monitor
+2023-03-16 18:31:01,053:INFO:Defining topic model
+2023-03-16 18:31:01,053:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 18:31:01,053:INFO:Defining num_topics parameter
+2023-03-16 18:31:01,053:INFO:num_topics set to: 5
+2023-03-16 18:31:01,056:INFO:LDA multi_core enabled
+2023-03-16 18:31:01,056:INFO:LdaMulticore imported successfully
+2023-03-16 18:35:09,658:INFO:LdaMulticore trained successfully
+2023-03-16 18:35:09,660:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 18:35:09,660:INFO:create_model() succesfully completed......................................
+2023-03-16 18:35:09,663:INFO:Initializing assign_model()
+2023-03-16 18:35:09,664:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 18:35:09,664:INFO:Determining model type
+2023-03-16 18:35:09,664:INFO:model type: lda
+2023-03-16 18:35:09,664:INFO:Checking exceptions
+2023-03-16 18:35:09,664:INFO:Preloading libraries
+2023-03-16 18:35:09,664:INFO:Preparing display monitor
+2023-03-16 18:35:21,821:INFO:(41159, 13)
+2023-03-16 18:35:21,821:INFO:assign_model() succesfully completed......................................
+2023-03-16 18:35:22,464:INFO:Initializing predict_model()
+2023-03-16 18:35:22,464:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True,
+                                      features_todrop=['UserName', 'ScreenName',
+                                                       'Location', 'TweetAt',
+                                                       'OriginalTweet',
+                                                       'Topic_0', 'Topic_1',
+                                                       'Topic_2', 'Topic_3'],
+                                      id_columns=['UserName', 'ScreenName'],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Sentiment',
+                                      time_features=[])),
+                ('im...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=2532,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False)]],
+         verbose=False), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-03-16 18:35:22,464:INFO:Checking exceptions
+2023-03-16 18:35:22,464:INFO:Preloading libraries
+2023-03-16 18:38:42,894:INFO:Initializing load_model()
+2023-03-16 18:38:42,894:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 18:39:52,529:INFO:PyCaret NLP Module
+2023-03-16 18:39:52,530:INFO:version 2.3.10
+2023-03-16 18:39:52,531:INFO:Initializing setup()
+2023-03-16 18:39:52,531:INFO:USI: 46c3
+2023-03-16 18:39:52,531:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 18:39:52,531:INFO:Checking environment
+2023-03-16 18:39:52,531:INFO:python_version: 3.8.2
+2023-03-16 18:39:52,531:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 18:39:52,532:INFO:machine: x86_64
+2023-03-16 18:39:52,547:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 18:39:52,548:INFO:Memory: svmem(total=8589934592, available=2215149568, percent=74.2, used=4753952768, free=77746176, active=2141470720, inactive=1788796928, wired=2612482048)
+2023-03-16 18:39:52,548:INFO:Physical Core: 2
+2023-03-16 18:39:52,548:INFO:Logical Core: 4
+2023-03-16 18:39:52,548:INFO:Checking libraries
+2023-03-16 18:39:52,548:INFO:pd==1.5.3
+2023-03-16 18:39:52,549:INFO:numpy==1.20.3
+2023-03-16 18:39:52,817:INFO:gensim==3.8.3
+2023-03-16 18:39:54,445:INFO:spacy==3.5.0
+2023-03-16 18:39:55,256:INFO:nltk==3.7
+2023-03-16 18:39:55,338:INFO:textblob==0.17.1
+2023-03-16 18:39:55,398:INFO:pyLDAvis==3.2.2
+2023-03-16 18:39:55,429:INFO:wordcloud==1.8.2.2
+2023-03-16 18:39:55,430:INFO:mlflow==2.1.1
+2023-03-16 18:39:55,430:INFO:Checking Exceptions
+2023-03-16 18:39:56,447:INFO:Preloading libraries
+2023-03-16 18:39:56,447:INFO:Preparing display monitor
+2023-03-16 18:39:56,464:INFO:Importing libraries
+2023-03-16 18:39:56,465:INFO:Declaring global variables
+2023-03-16 18:39:56,467:INFO:Input provided : dataframe
+2023-03-16 18:39:56,468:INFO:session_id set to : 123
+2023-03-16 18:39:56,468:INFO:Copying training dataset
+2023-03-16 18:39:56,485:INFO:Importing stopwords from nltk
+2023-03-16 18:39:56,605:INFO:Removing numeric characters from the text
+2023-03-16 18:39:56,968:INFO:Removing special characters from the text
+2023-03-16 18:39:59,317:INFO:Tokenizing Words
+2023-03-16 18:40:04,249:INFO:Removing stopwords
+2023-03-16 18:40:07,616:INFO:Extracting Bigrams
+2023-03-16 18:40:17,076:INFO:Extracting Trigrams
+2023-03-16 18:40:32,847:INFO:Lemmatizing tokens
+2023-03-16 18:43:24,299:INFO:Removing stopwords after lemmatizing
+2023-03-16 18:43:26,137:INFO:Creating corpus and dictionary
+2023-03-16 18:43:28,027:INFO:Compiling processed text
+2023-03-16 18:43:28,066:INFO:Compiling information grid
+2023-03-16 18:43:28,068:INFO:setup() succesfully completed......................................
+2023-03-16 18:43:28,069:INFO:Initializing create_model()
+2023-03-16 18:43:28,069:INFO:create_model(model=lda, multi_core=True, num_topics=5, verbose=True, system=True)
+2023-03-16 18:43:28,069:INFO:Checking exceptions
+2023-03-16 18:43:28,070:INFO:Preloading libraries
+2023-03-16 18:43:28,070:INFO:Preparing display monitor
+2023-03-16 18:43:28,075:INFO:Defining topic model
+2023-03-16 18:43:28,075:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 18:43:28,075:INFO:Defining num_topics parameter
+2023-03-16 18:43:28,075:INFO:num_topics set to: 5
+2023-03-16 18:43:28,077:INFO:LDA multi_core enabled
+2023-03-16 18:43:28,077:INFO:LdaMulticore imported successfully
+2023-03-16 18:47:36,951:INFO:LdaMulticore trained successfully
+2023-03-16 18:47:36,954:INFO:LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100)
+2023-03-16 18:47:36,954:INFO:create_model() succesfully completed......................................
+2023-03-16 18:47:36,961:INFO:Initializing assign_model()
+2023-03-16 18:47:36,961:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=5, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 18:47:36,961:INFO:Determining model type
+2023-03-16 18:47:36,961:INFO:model type: lda
+2023-03-16 18:47:36,961:INFO:Checking exceptions
+2023-03-16 18:47:36,962:INFO:Preloading libraries
+2023-03-16 18:47:36,962:INFO:Preparing display monitor
+2023-03-16 18:47:48,718:INFO:(41159, 13)
+2023-03-16 18:47:48,718:INFO:assign_model() succesfully completed......................................
+2023-03-16 18:47:49,359:INFO:Initializing predict_model()
+2023-03-16 18:47:49,359:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True,
+                                      features_todrop=['UserName', 'ScreenName',
+                                                       'Location', 'TweetAt',
+                                                       'OriginalTweet',
+                                                       'Topic_0', 'Topic_1',
+                                                       'Topic_2', 'Topic_3'],
+                                      id_columns=['UserName', 'ScreenName'],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Sentiment',
+                                      time_features=[])),
+                ('im...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=2532,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False)]],
+         verbose=False), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-03-16 18:47:49,359:INFO:Checking exceptions
+2023-03-16 18:47:49,359:INFO:Preloading libraries
+2023-03-16 19:18:40,060:INFO:Initializing load_model()
+2023-03-16 19:18:40,062:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 19:19:09,211:INFO:PyCaret NLP Module
+2023-03-16 19:19:09,212:INFO:version 2.3.10
+2023-03-16 19:19:09,213:INFO:Initializing setup()
+2023-03-16 19:19:09,213:INFO:USI: 36a6
+2023-03-16 19:19:09,213:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 19:19:09,214:INFO:Checking environment
+2023-03-16 19:19:09,214:INFO:python_version: 3.8.2
+2023-03-16 19:19:09,214:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 19:19:09,214:INFO:machine: x86_64
+2023-03-16 19:19:09,248:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 19:19:09,249:INFO:Memory: svmem(total=8589934592, available=1873788928, percent=78.2, used=4427280384, free=106663936, active=1767231488, inactive=1652719616, wired=2660048896)
+2023-03-16 19:19:09,249:INFO:Physical Core: 2
+2023-03-16 19:19:09,249:INFO:Logical Core: 4
+2023-03-16 19:19:09,249:INFO:Checking libraries
+2023-03-16 19:19:09,249:INFO:pd==1.5.3
+2023-03-16 19:19:09,249:INFO:numpy==1.20.3
+2023-03-16 19:19:09,557:INFO:gensim==3.8.3
+2023-03-16 19:19:11,398:INFO:spacy==3.5.0
+2023-03-16 19:19:12,090:INFO:nltk==3.7
+2023-03-16 19:19:12,163:INFO:textblob==0.17.1
+2023-03-16 19:19:12,214:INFO:pyLDAvis==3.2.2
+2023-03-16 19:19:12,245:INFO:wordcloud==1.8.2.2
+2023-03-16 19:19:12,245:INFO:mlflow==2.1.1
+2023-03-16 19:19:12,245:INFO:Checking Exceptions
+2023-03-16 19:19:13,438:INFO:Preloading libraries
+2023-03-16 19:19:13,438:INFO:Preparing display monitor
+2023-03-16 19:19:13,467:INFO:Importing libraries
+2023-03-16 19:19:13,468:INFO:Declaring global variables
+2023-03-16 19:19:13,472:INFO:Input provided : dataframe
+2023-03-16 19:19:13,473:INFO:session_id set to : 123
+2023-03-16 19:19:13,473:INFO:Copying training dataset
+2023-03-16 19:19:13,510:INFO:Importing stopwords from nltk
+2023-03-16 19:19:13,663:INFO:Removing numeric characters from the text
+2023-03-16 19:19:14,129:INFO:Removing special characters from the text
+2023-03-16 19:19:17,047:INFO:Tokenizing Words
+2023-03-16 19:19:26,409:INFO:Removing stopwords
+2023-03-16 19:19:31,373:INFO:Extracting Bigrams
+2023-03-16 19:20:04,214:INFO:Initializing load_model()
+2023-03-16 19:20:04,216:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 19:20:24,333:INFO:PyCaret NLP Module
+2023-03-16 19:20:24,334:INFO:version 2.3.10
+2023-03-16 19:20:24,334:INFO:Initializing setup()
+2023-03-16 19:20:24,334:INFO:USI: 93e7
+2023-03-16 19:20:24,334:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 19:20:24,334:INFO:Checking environment
+2023-03-16 19:20:24,334:INFO:python_version: 3.8.2
+2023-03-16 19:20:24,335:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 19:20:24,335:INFO:machine: x86_64
+2023-03-16 19:20:24,353:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 19:20:24,354:INFO:Memory: svmem(total=8589934592, available=1826713600, percent=78.7, used=4457304064, free=17211392, active=1811095552, inactive=1708195840, wired=2646208512)
+2023-03-16 19:20:24,354:INFO:Physical Core: 2
+2023-03-16 19:20:24,354:INFO:Logical Core: 4
+2023-03-16 19:20:24,354:INFO:Checking libraries
+2023-03-16 19:20:24,355:INFO:pd==1.5.3
+2023-03-16 19:20:24,355:INFO:numpy==1.20.3
+2023-03-16 19:20:24,653:INFO:gensim==3.8.3
+2023-03-16 19:20:26,302:INFO:spacy==3.5.0
+2023-03-16 19:20:27,011:INFO:nltk==3.7
+2023-03-16 19:20:27,082:INFO:textblob==0.17.1
+2023-03-16 19:20:27,128:INFO:pyLDAvis==3.2.2
+2023-03-16 19:20:27,159:INFO:wordcloud==1.8.2.2
+2023-03-16 19:20:27,159:INFO:mlflow==2.1.1
+2023-03-16 19:20:27,159:INFO:Checking Exceptions
+2023-03-16 19:20:28,349:INFO:Preloading libraries
+2023-03-16 19:20:28,351:INFO:Preparing display monitor
+2023-03-16 19:20:28,374:INFO:Importing libraries
+2023-03-16 19:20:28,375:INFO:Declaring global variables
+2023-03-16 19:20:28,379:INFO:Input provided : dataframe
+2023-03-16 19:20:28,380:INFO:session_id set to : 123
+2023-03-16 19:20:28,380:INFO:Copying training dataset
+2023-03-16 19:20:28,430:INFO:Importing stopwords from nltk
+2023-03-16 19:20:28,537:INFO:Removing numeric characters from the text
+2023-03-16 19:20:29,039:INFO:Removing special characters from the text
+2023-03-16 19:20:32,154:INFO:Tokenizing Words
+2023-03-16 19:20:40,492:INFO:Removing stopwords
+2023-03-16 19:20:45,367:INFO:Extracting Bigrams
+2023-03-16 19:21:00,101:INFO:Extracting Trigrams
+2023-03-16 19:21:25,105:INFO:Lemmatizing tokens
+2023-03-16 19:24:12,866:INFO:Initializing load_model()
+2023-03-16 19:24:12,868:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 19:24:37,104:INFO:PyCaret NLP Module
+2023-03-16 19:24:37,105:INFO:version 2.3.10
+2023-03-16 19:24:37,105:INFO:Initializing setup()
+2023-03-16 19:24:37,106:INFO:USI: b3d2
+2023-03-16 19:24:37,106:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 19:24:37,106:INFO:Checking environment
+2023-03-16 19:24:37,106:INFO:python_version: 3.8.2
+2023-03-16 19:24:37,106:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 19:24:37,107:INFO:machine: x86_64
+2023-03-16 19:24:37,138:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 19:24:37,139:INFO:Memory: svmem(total=8589934592, available=1775042560, percent=79.3, used=4398587904, free=16019456, active=1761026048, inactive=1724919808, wired=2637561856)
+2023-03-16 19:24:37,139:INFO:Physical Core: 2
+2023-03-16 19:24:37,139:INFO:Logical Core: 4
+2023-03-16 19:24:37,139:INFO:Checking libraries
+2023-03-16 19:24:37,140:INFO:pd==1.5.3
+2023-03-16 19:24:37,140:INFO:numpy==1.20.3
+2023-03-16 19:24:37,416:INFO:gensim==3.8.3
+2023-03-16 19:24:39,279:INFO:spacy==3.5.0
+2023-03-16 19:24:40,597:INFO:nltk==3.7
+2023-03-16 19:24:40,697:INFO:textblob==0.17.1
+2023-03-16 19:24:40,753:INFO:pyLDAvis==3.2.2
+2023-03-16 19:24:40,783:INFO:wordcloud==1.8.2.2
+2023-03-16 19:24:40,783:INFO:mlflow==2.1.1
+2023-03-16 19:24:40,783:INFO:Checking Exceptions
+2023-03-16 19:24:42,039:INFO:Preloading libraries
+2023-03-16 19:24:42,039:INFO:Preparing display monitor
+2023-03-16 19:24:42,072:INFO:Importing libraries
+2023-03-16 19:24:42,072:INFO:Declaring global variables
+2023-03-16 19:24:42,076:INFO:Input provided : dataframe
+2023-03-16 19:24:42,077:INFO:session_id set to : 123
+2023-03-16 19:24:42,077:INFO:Copying training dataset
+2023-03-16 19:24:42,119:INFO:Importing stopwords from nltk
+2023-03-16 19:24:42,248:INFO:Removing numeric characters from the text
+2023-03-16 19:24:42,739:INFO:Removing special characters from the text
+2023-03-16 19:24:46,133:INFO:Tokenizing Words
+2023-03-16 19:24:54,826:INFO:Removing stopwords
+2023-03-16 19:25:00,882:INFO:Extracting Bigrams
+2023-03-16 19:25:16,543:INFO:Extracting Trigrams
+2023-03-16 19:25:42,746:INFO:Lemmatizing tokens
+2023-03-16 19:30:52,466:INFO:Removing stopwords after lemmatizing
+2023-03-16 19:30:54,623:INFO:Creating corpus and dictionary
+2023-03-16 19:30:57,260:INFO:Compiling processed text
+2023-03-16 19:30:57,329:INFO:Compiling information grid
+2023-03-16 19:30:57,330:INFO:setup() succesfully completed......................................
+2023-03-16 19:30:57,332:INFO:Initializing create_model()
+2023-03-16 19:30:57,332:INFO:create_model(model=lda, multi_core=True, num_topics=4, verbose=True, system=True)
+2023-03-16 19:30:57,332:INFO:Checking exceptions
+2023-03-16 19:30:57,332:INFO:Preloading libraries
+2023-03-16 19:30:57,332:INFO:Preparing display monitor
+2023-03-16 19:30:57,347:INFO:Defining topic model
+2023-03-16 19:30:57,347:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 19:30:57,347:INFO:Defining num_topics parameter
+2023-03-16 19:30:57,347:INFO:num_topics set to: 4
+2023-03-16 19:30:57,353:INFO:LDA multi_core enabled
+2023-03-16 19:30:57,354:INFO:LdaMulticore imported successfully
+2023-03-16 19:35:29,318:INFO:LdaMulticore trained successfully
+2023-03-16 19:35:29,323:INFO:LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100)
+2023-03-16 19:35:29,323:INFO:create_model() succesfully completed......................................
+2023-03-16 19:35:29,330:INFO:Initializing assign_model()
+2023-03-16 19:35:29,331:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 19:35:29,331:INFO:Determining model type
+2023-03-16 19:35:29,331:INFO:model type: lda
+2023-03-16 19:35:29,332:INFO:Checking exceptions
+2023-03-16 19:35:29,332:INFO:Preloading libraries
+2023-03-16 19:35:29,333:INFO:Preparing display monitor
+2023-03-16 19:35:41,958:INFO:(41159, 12)
+2023-03-16 19:35:41,958:INFO:assign_model() succesfully completed......................................
+2023-03-16 19:35:42,620:INFO:Initializing predict_model()
+2023-03-16 19:35:42,620:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True,
+                                      features_todrop=['UserName', 'ScreenName',
+                                                       'Location', 'TweetAt',
+                                                       'OriginalTweet',
+                                                       'Topic_0', 'Topic_1',
+                                                       'Topic_2', 'Topic_3'],
+                                      id_columns=['UserName', 'ScreenName'],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Sentiment',
+                                      time_features=[])),
+                ('im...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=2532,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False)]],
+         verbose=False), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-03-16 19:35:42,620:INFO:Checking exceptions
+2023-03-16 19:35:42,621:INFO:Preloading libraries
+2023-03-16 19:37:06,028:INFO:Initializing load_model()
+2023-03-16 19:37:06,030:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 19:37:46,392:INFO:PyCaret NLP Module
+2023-03-16 19:37:46,393:INFO:version 2.3.10
+2023-03-16 19:37:46,394:INFO:Initializing setup()
+2023-03-16 19:37:46,394:INFO:USI: 2e30
+2023-03-16 19:37:46,394:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 19:37:46,394:INFO:Checking environment
+2023-03-16 19:37:46,394:INFO:python_version: 3.8.2
+2023-03-16 19:37:46,394:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 19:37:46,394:INFO:machine: x86_64
+2023-03-16 19:37:46,413:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 19:37:46,414:INFO:Memory: svmem(total=8589934592, available=1912496128, percent=77.7, used=4403621888, free=127684608, active=1784655872, inactive=1621630976, wired=2618966016)
+2023-03-16 19:37:46,414:INFO:Physical Core: 2
+2023-03-16 19:37:46,414:INFO:Logical Core: 4
+2023-03-16 19:37:46,415:INFO:Checking libraries
+2023-03-16 19:37:46,415:INFO:pd==1.5.3
+2023-03-16 19:37:46,415:INFO:numpy==1.20.3
+2023-03-16 19:37:46,701:INFO:gensim==3.8.3
+2023-03-16 19:37:48,529:INFO:spacy==3.5.0
+2023-03-16 19:37:49,249:INFO:nltk==3.7
+2023-03-16 19:37:49,318:INFO:textblob==0.17.1
+2023-03-16 19:37:49,372:INFO:pyLDAvis==3.2.2
+2023-03-16 19:37:49,404:INFO:wordcloud==1.8.2.2
+2023-03-16 19:37:49,404:INFO:mlflow==2.1.1
+2023-03-16 19:37:49,404:INFO:Checking Exceptions
+2023-03-16 19:37:50,990:INFO:Preloading libraries
+2023-03-16 19:37:50,990:INFO:Preparing display monitor
+2023-03-16 19:37:51,023:INFO:Importing libraries
+2023-03-16 19:37:51,023:INFO:Declaring global variables
+2023-03-16 19:37:51,026:INFO:Input provided : dataframe
+2023-03-16 19:37:51,027:INFO:session_id set to : 123
+2023-03-16 19:37:51,027:INFO:Copying training dataset
+2023-03-16 19:37:51,050:INFO:Importing stopwords from nltk
+2023-03-16 19:37:51,172:INFO:Removing numeric characters from the text
+2023-03-16 19:37:51,585:INFO:Removing special characters from the text
+2023-03-16 19:37:54,352:INFO:Tokenizing Words
+2023-03-16 19:37:59,831:INFO:Removing stopwords
+2023-03-16 19:38:03,349:INFO:Extracting Bigrams
+2023-03-16 19:38:13,106:INFO:Extracting Trigrams
+2023-03-16 19:38:29,163:INFO:Lemmatizing tokens
+2023-03-16 19:42:01,219:INFO:Removing stopwords after lemmatizing
+2023-03-16 19:42:03,186:INFO:Creating corpus and dictionary
+2023-03-16 19:42:05,753:INFO:Compiling processed text
+2023-03-16 19:42:05,835:INFO:Compiling information grid
+2023-03-16 19:42:05,837:INFO:setup() succesfully completed......................................
+2023-03-16 19:42:05,838:INFO:Initializing create_model()
+2023-03-16 19:42:05,839:INFO:create_model(model=lda, multi_core=True, num_topics=4, verbose=True, system=True)
+2023-03-16 19:42:05,839:INFO:Checking exceptions
+2023-03-16 19:42:05,839:INFO:Preloading libraries
+2023-03-16 19:42:05,840:INFO:Preparing display monitor
+2023-03-16 19:42:05,845:INFO:Defining topic model
+2023-03-16 19:42:05,846:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 19:42:05,846:INFO:Defining num_topics parameter
+2023-03-16 19:42:05,846:INFO:num_topics set to: 4
+2023-03-16 19:42:05,848:INFO:LDA multi_core enabled
+2023-03-16 19:42:05,849:INFO:LdaMulticore imported successfully
+2023-03-16 19:48:06,456:INFO:LdaMulticore trained successfully
+2023-03-16 19:48:06,462:INFO:LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100)
+2023-03-16 19:48:06,462:INFO:create_model() succesfully completed......................................
+2023-03-16 19:48:06,471:INFO:Initializing assign_model()
+2023-03-16 19:48:06,471:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 19:48:06,471:INFO:Determining model type
+2023-03-16 19:48:06,471:INFO:model type: lda
+2023-03-16 19:48:06,471:INFO:Checking exceptions
+2023-03-16 19:48:06,471:INFO:Preloading libraries
+2023-03-16 19:48:06,472:INFO:Preparing display monitor
+2023-03-16 19:48:21,329:INFO:(41159, 12)
+2023-03-16 19:48:21,329:INFO:assign_model() succesfully completed......................................
+2023-03-16 19:50:10,562:INFO:Initializing load_model()
+2023-03-16 19:50:10,563:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 19:50:39,822:INFO:Initializing load_model()
+2023-03-16 19:50:39,824:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 19:51:27,005:INFO:PyCaret NLP Module
+2023-03-16 19:51:27,007:INFO:version 2.3.10
+2023-03-16 19:51:27,008:INFO:Initializing setup()
+2023-03-16 19:51:27,008:INFO:USI: 1e83
+2023-03-16 19:51:27,008:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 19:51:27,008:INFO:Checking environment
+2023-03-16 19:51:27,008:INFO:python_version: 3.8.2
+2023-03-16 19:51:27,008:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 19:51:27,008:INFO:machine: x86_64
+2023-03-16 19:51:27,035:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 19:51:27,035:INFO:Memory: svmem(total=8589934592, available=1893621760, percent=78.0, used=4449411072, free=15986688, active=1878032384, inactive=1718173696, wired=2571378688)
+2023-03-16 19:51:27,036:INFO:Physical Core: 2
+2023-03-16 19:51:27,036:INFO:Logical Core: 4
+2023-03-16 19:51:27,037:INFO:Checking libraries
+2023-03-16 19:51:27,037:INFO:pd==1.5.3
+2023-03-16 19:51:27,037:INFO:numpy==1.20.3
+2023-03-16 19:51:27,311:INFO:gensim==3.8.3
+2023-03-16 19:51:29,179:INFO:spacy==3.5.0
+2023-03-16 19:51:29,924:INFO:nltk==3.7
+2023-03-16 19:51:29,996:INFO:textblob==0.17.1
+2023-03-16 19:51:30,049:INFO:pyLDAvis==3.2.2
+2023-03-16 19:51:30,082:INFO:wordcloud==1.8.2.2
+2023-03-16 19:51:30,082:INFO:mlflow==2.1.1
+2023-03-16 19:51:30,082:INFO:Checking Exceptions
+2023-03-16 19:51:31,468:INFO:Preloading libraries
+2023-03-16 19:51:31,469:INFO:Preparing display monitor
+2023-03-16 19:51:31,584:INFO:Importing libraries
+2023-03-16 19:51:31,585:INFO:Declaring global variables
+2023-03-16 19:51:31,587:INFO:Input provided : dataframe
+2023-03-16 19:51:31,587:INFO:session_id set to : 123
+2023-03-16 19:51:31,587:INFO:Copying training dataset
+2023-03-16 19:51:31,647:INFO:Importing stopwords from nltk
+2023-03-16 19:51:31,807:INFO:Removing numeric characters from the text
+2023-03-16 19:51:32,763:INFO:Removing special characters from the text
+2023-03-16 19:51:37,590:INFO:Tokenizing Words
+2023-03-16 19:51:45,453:INFO:Removing stopwords
+2023-03-16 19:51:50,231:INFO:Extracting Bigrams
+2023-03-16 19:52:03,493:INFO:Extracting Trigrams
+2023-03-16 19:52:25,931:INFO:Lemmatizing tokens
+2023-03-16 19:55:49,820:INFO:Removing stopwords after lemmatizing
+2023-03-16 19:55:51,904:INFO:Creating corpus and dictionary
+2023-03-16 19:55:54,219:INFO:Compiling processed text
+2023-03-16 19:55:54,289:INFO:Compiling information grid
+2023-03-16 19:55:54,291:INFO:setup() succesfully completed......................................
+2023-03-16 19:55:54,292:INFO:Initializing create_model()
+2023-03-16 19:55:54,292:INFO:create_model(model=lda, multi_core=True, num_topics=4, verbose=True, system=True)
+2023-03-16 19:55:54,292:INFO:Checking exceptions
+2023-03-16 19:55:54,292:INFO:Preloading libraries
+2023-03-16 19:55:54,292:INFO:Preparing display monitor
+2023-03-16 19:55:54,304:INFO:Defining topic model
+2023-03-16 19:55:54,304:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 19:55:54,304:INFO:Defining num_topics parameter
+2023-03-16 19:55:54,304:INFO:num_topics set to: 4
+2023-03-16 19:55:54,309:INFO:LDA multi_core enabled
+2023-03-16 19:55:54,309:INFO:LdaMulticore imported successfully
+2023-03-16 20:00:19,905:INFO:LdaMulticore trained successfully
+2023-03-16 20:00:19,909:INFO:LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100)
+2023-03-16 20:00:19,909:INFO:create_model() succesfully completed......................................
+2023-03-16 20:00:19,913:INFO:Initializing assign_model()
+2023-03-16 20:00:19,914:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 20:00:19,914:INFO:Determining model type
+2023-03-16 20:00:19,915:INFO:model type: lda
+2023-03-16 20:00:19,915:INFO:Checking exceptions
+2023-03-16 20:00:19,915:INFO:Preloading libraries
+2023-03-16 20:00:19,916:INFO:Preparing display monitor
+2023-03-16 20:00:32,243:INFO:(41159, 12)
+2023-03-16 20:00:32,243:INFO:assign_model() succesfully completed......................................
+2023-03-16 20:01:54,979:INFO:Initializing load_model()
+2023-03-16 20:01:54,980:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 20:02:01,998:INFO:PyCaret NLP Module
+2023-03-16 20:02:01,999:INFO:version 2.3.10
+2023-03-16 20:02:01,999:INFO:Initializing setup()
+2023-03-16 20:02:01,999:INFO:USI: 3274
+2023-03-16 20:02:01,999:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 20:02:01,999:INFO:Checking environment
+2023-03-16 20:02:01,999:INFO:python_version: 3.8.2
+2023-03-16 20:02:01,999:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 20:02:02,000:INFO:machine: x86_64
+2023-03-16 20:02:02,017:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 20:02:02,018:INFO:Memory: svmem(total=8589934592, available=2020155392, percent=76.5, used=4713263104, free=16818176, active=2004824064, inactive=1846816768, wired=2708439040)
+2023-03-16 20:02:02,018:INFO:Physical Core: 2
+2023-03-16 20:02:02,018:INFO:Logical Core: 4
+2023-03-16 20:02:02,019:INFO:Checking libraries
+2023-03-16 20:02:02,020:INFO:pd==1.5.3
+2023-03-16 20:02:02,020:INFO:numpy==1.20.3
+2023-03-16 20:02:02,302:INFO:gensim==3.8.3
+2023-03-16 20:02:03,949:INFO:spacy==3.5.0
+2023-03-16 20:02:04,817:INFO:nltk==3.7
+2023-03-16 20:02:04,901:INFO:textblob==0.17.1
+2023-03-16 20:02:04,953:INFO:pyLDAvis==3.2.2
+2023-03-16 20:02:04,981:INFO:wordcloud==1.8.2.2
+2023-03-16 20:02:04,982:INFO:mlflow==2.1.1
+2023-03-16 20:02:04,982:INFO:Checking Exceptions
+2023-03-16 20:02:06,097:INFO:Preloading libraries
+2023-03-16 20:02:06,098:INFO:Preparing display monitor
+2023-03-16 20:02:06,121:INFO:Importing libraries
+2023-03-16 20:02:06,121:INFO:Declaring global variables
+2023-03-16 20:02:06,124:INFO:Input provided : dataframe
+2023-03-16 20:02:06,124:INFO:session_id set to : 123
+2023-03-16 20:02:06,124:INFO:Copying training dataset
+2023-03-16 20:02:06,157:INFO:Importing stopwords from nltk
+2023-03-16 20:02:06,284:INFO:Removing numeric characters from the text
+2023-03-16 20:02:06,660:INFO:Removing special characters from the text
+2023-03-16 20:02:09,026:INFO:Tokenizing Words
+2023-03-16 20:02:14,010:INFO:Removing stopwords
+2023-03-16 20:02:17,465:INFO:Extracting Bigrams
+2023-03-16 20:02:26,972:INFO:Extracting Trigrams
+2023-03-16 20:02:42,116:INFO:Lemmatizing tokens
+2023-03-16 20:06:12,603:INFO:Removing stopwords after lemmatizing
+2023-03-16 20:06:14,712:INFO:Creating corpus and dictionary
+2023-03-16 20:06:16,978:INFO:Compiling processed text
+2023-03-16 20:06:17,026:INFO:Compiling information grid
+2023-03-16 20:06:17,029:INFO:setup() succesfully completed......................................
+2023-03-16 20:06:17,031:INFO:Initializing create_model()
+2023-03-16 20:06:17,031:INFO:create_model(model=lda, multi_core=True, num_topics=4, verbose=True, system=True)
+2023-03-16 20:06:17,031:INFO:Checking exceptions
+2023-03-16 20:06:17,031:INFO:Preloading libraries
+2023-03-16 20:06:17,031:INFO:Preparing display monitor
+2023-03-16 20:06:17,038:INFO:Defining topic model
+2023-03-16 20:06:17,038:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 20:06:17,038:INFO:Defining num_topics parameter
+2023-03-16 20:06:17,038:INFO:num_topics set to: 4
+2023-03-16 20:06:17,040:INFO:LDA multi_core enabled
+2023-03-16 20:06:17,040:INFO:LdaMulticore imported successfully
+2023-03-16 20:11:15,148:INFO:LdaMulticore trained successfully
+2023-03-16 20:11:15,153:INFO:LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100)
+2023-03-16 20:11:15,153:INFO:create_model() succesfully completed......................................
+2023-03-16 20:11:15,167:INFO:Initializing assign_model()
+2023-03-16 20:11:15,168:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 20:11:15,168:INFO:Determining model type
+2023-03-16 20:11:15,168:INFO:model type: lda
+2023-03-16 20:11:15,168:INFO:Checking exceptions
+2023-03-16 20:11:15,168:INFO:Preloading libraries
+2023-03-16 20:11:15,168:INFO:Preparing display monitor
+2023-03-16 20:11:29,446:INFO:(41159, 12)
+2023-03-16 20:11:29,446:INFO:assign_model() succesfully completed......................................
+2023-03-16 20:13:07,087:INFO:Initializing load_model()
+2023-03-16 20:13:07,088:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 20:13:27,208:INFO:PyCaret NLP Module
+2023-03-16 20:13:27,208:INFO:version 2.3.10
+2023-03-16 20:13:27,208:INFO:Initializing setup()
+2023-03-16 20:13:27,208:INFO:USI: 69b9
+2023-03-16 20:13:27,209:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 20:13:27,209:INFO:Checking environment
+2023-03-16 20:13:27,209:INFO:python_version: 3.8.2
+2023-03-16 20:13:27,209:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 20:13:27,209:INFO:machine: x86_64
+2023-03-16 20:13:27,225:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 20:13:27,226:INFO:Memory: svmem(total=8589934592, available=2080542720, percent=75.8, used=4711411712, free=27512832, active=2053828608, inactive=1750859776, wired=2657583104)
+2023-03-16 20:13:27,226:INFO:Physical Core: 2
+2023-03-16 20:13:27,226:INFO:Logical Core: 4
+2023-03-16 20:13:27,226:INFO:Checking libraries
+2023-03-16 20:13:27,226:INFO:pd==1.5.3
+2023-03-16 20:13:27,226:INFO:numpy==1.20.3
+2023-03-16 20:13:27,515:INFO:gensim==3.8.3
+2023-03-16 20:13:29,257:INFO:spacy==3.5.0
+2023-03-16 20:13:30,016:INFO:nltk==3.7
+2023-03-16 20:13:30,097:INFO:textblob==0.17.1
+2023-03-16 20:13:30,155:INFO:pyLDAvis==3.2.2
+2023-03-16 20:13:30,187:INFO:wordcloud==1.8.2.2
+2023-03-16 20:13:30,187:INFO:mlflow==2.1.1
+2023-03-16 20:13:30,187:INFO:Checking Exceptions
+2023-03-16 20:13:31,655:INFO:Preloading libraries
+2023-03-16 20:13:31,656:INFO:Preparing display monitor
+2023-03-16 20:13:31,672:INFO:Importing libraries
+2023-03-16 20:13:31,672:INFO:Declaring global variables
+2023-03-16 20:13:31,674:INFO:Input provided : dataframe
+2023-03-16 20:13:31,675:INFO:session_id set to : 123
+2023-03-16 20:13:31,675:INFO:Copying training dataset
+2023-03-16 20:13:31,691:INFO:Importing stopwords from nltk
+2023-03-16 20:13:31,820:INFO:Removing numeric characters from the text
+2023-03-16 20:13:32,307:INFO:Removing special characters from the text
+2023-03-16 20:13:35,563:INFO:Tokenizing Words
+2023-03-16 20:13:41,341:INFO:Removing stopwords
+2023-03-16 20:13:44,898:INFO:Extracting Bigrams
+2023-03-16 20:13:59,329:INFO:Extracting Trigrams
+2023-03-16 20:14:17,603:INFO:Lemmatizing tokens
+2023-03-16 20:17:28,244:INFO:Removing stopwords after lemmatizing
+2023-03-16 20:17:30,390:INFO:Creating corpus and dictionary
+2023-03-16 20:17:32,664:INFO:Compiling processed text
+2023-03-16 20:17:32,709:INFO:Compiling information grid
+2023-03-16 20:17:32,711:INFO:setup() succesfully completed......................................
+2023-03-16 20:17:32,712:INFO:Initializing create_model()
+2023-03-16 20:17:32,712:INFO:create_model(model=lda, multi_core=True, num_topics=4, verbose=True, system=True)
+2023-03-16 20:17:32,713:INFO:Checking exceptions
+2023-03-16 20:17:32,713:INFO:Preloading libraries
+2023-03-16 20:17:32,713:INFO:Preparing display monitor
+2023-03-16 20:17:32,721:INFO:Defining topic model
+2023-03-16 20:17:32,721:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 20:17:32,721:INFO:Defining num_topics parameter
+2023-03-16 20:17:32,721:INFO:num_topics set to: 4
+2023-03-16 20:17:32,724:INFO:LDA multi_core enabled
+2023-03-16 20:17:32,725:INFO:LdaMulticore imported successfully
+2023-03-16 20:21:58,870:INFO:LdaMulticore trained successfully
+2023-03-16 20:21:58,872:INFO:LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100)
+2023-03-16 20:21:58,873:INFO:create_model() succesfully completed......................................
+2023-03-16 20:21:58,879:INFO:Initializing assign_model()
+2023-03-16 20:21:58,879:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 20:21:58,879:INFO:Determining model type
+2023-03-16 20:21:58,880:INFO:model type: lda
+2023-03-16 20:21:58,880:INFO:Checking exceptions
+2023-03-16 20:21:58,880:INFO:Preloading libraries
+2023-03-16 20:21:58,880:INFO:Preparing display monitor
+2023-03-16 20:22:12,903:INFO:(41159, 12)
+2023-03-16 20:22:12,903:INFO:assign_model() succesfully completed......................................
+2023-03-16 20:22:13,491:INFO:Initializing predict_model()
+2023-03-16 20:22:13,491:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True,
+                                      features_todrop=['UserName', 'ScreenName',
+                                                       'Location', 'TweetAt',
+                                                       'OriginalTweet',
+                                                       'Topic_0', 'Topic_1',
+                                                       'Topic_2', 'Topic_3'],
+                                      id_columns=['UserName', 'ScreenName'],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Sentiment',
+                                      time_features=[])),
+                ('im...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=2532,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False)]],
+         verbose=False), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-03-16 20:22:13,491:INFO:Checking exceptions
+2023-03-16 20:22:13,491:INFO:Preloading libraries
+2023-03-16 20:23:56,088:INFO:Initializing load_model()
+2023-03-16 20:23:56,088:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 20:24:09,124:INFO:PyCaret NLP Module
+2023-03-16 20:24:09,125:INFO:version 2.3.10
+2023-03-16 20:24:09,125:INFO:Initializing setup()
+2023-03-16 20:24:09,125:INFO:USI: e924
+2023-03-16 20:24:09,126:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 20:24:09,126:INFO:Checking environment
+2023-03-16 20:24:09,126:INFO:python_version: 3.8.2
+2023-03-16 20:24:09,126:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 20:24:09,126:INFO:machine: x86_64
+2023-03-16 20:24:09,148:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 20:24:09,150:INFO:Memory: svmem(total=8589934592, available=2220507136, percent=74.1, used=4461232128, free=16175104, active=1732931584, inactive=1864003584, wired=2728300544)
+2023-03-16 20:24:09,150:INFO:Physical Core: 2
+2023-03-16 20:24:09,150:INFO:Logical Core: 4
+2023-03-16 20:24:09,150:INFO:Checking libraries
+2023-03-16 20:24:09,150:INFO:pd==1.5.3
+2023-03-16 20:24:09,150:INFO:numpy==1.20.3
+2023-03-16 20:24:09,419:INFO:gensim==3.8.3
+2023-03-16 20:24:10,850:INFO:spacy==3.5.0
+2023-03-16 20:24:11,528:INFO:nltk==3.7
+2023-03-16 20:24:11,594:INFO:textblob==0.17.1
+2023-03-16 20:24:11,653:INFO:pyLDAvis==3.2.2
+2023-03-16 20:24:11,685:INFO:wordcloud==1.8.2.2
+2023-03-16 20:24:11,685:INFO:mlflow==2.1.1
+2023-03-16 20:24:11,685:INFO:Checking Exceptions
+2023-03-16 20:24:12,693:INFO:Preloading libraries
+2023-03-16 20:24:12,694:INFO:Preparing display monitor
+2023-03-16 20:24:12,711:INFO:Importing libraries
+2023-03-16 20:24:12,711:INFO:Declaring global variables
+2023-03-16 20:24:12,714:INFO:Input provided : dataframe
+2023-03-16 20:24:12,715:INFO:session_id set to : 123
+2023-03-16 20:24:12,715:INFO:Copying training dataset
+2023-03-16 20:24:12,742:INFO:Importing stopwords from nltk
+2023-03-16 20:24:12,851:INFO:Removing numeric characters from the text
+2023-03-16 20:24:13,243:INFO:Removing special characters from the text
+2023-03-16 20:24:15,724:INFO:Tokenizing Words
+2023-03-16 20:24:21,421:INFO:Removing stopwords
+2023-03-16 20:24:25,190:INFO:Extracting Bigrams
+2023-03-16 20:24:35,855:INFO:Extracting Trigrams
+2023-03-16 20:24:52,345:INFO:Lemmatizing tokens
+2023-03-16 20:27:42,674:INFO:Removing stopwords after lemmatizing
+2023-03-16 20:27:44,829:INFO:Creating corpus and dictionary
+2023-03-16 20:27:47,181:INFO:Compiling processed text
+2023-03-16 20:27:47,224:INFO:Compiling information grid
+2023-03-16 20:27:47,226:INFO:setup() succesfully completed......................................
+2023-03-16 20:27:47,227:INFO:Initializing create_model()
+2023-03-16 20:27:47,227:INFO:create_model(model=lda, multi_core=True, num_topics=4, verbose=True, system=True)
+2023-03-16 20:27:47,227:INFO:Checking exceptions
+2023-03-16 20:27:47,227:INFO:Preloading libraries
+2023-03-16 20:27:47,228:INFO:Preparing display monitor
+2023-03-16 20:27:47,235:INFO:Defining topic model
+2023-03-16 20:27:47,235:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 20:27:47,235:INFO:Defining num_topics parameter
+2023-03-16 20:27:47,236:INFO:num_topics set to: 4
+2023-03-16 20:27:47,240:INFO:LDA multi_core enabled
+2023-03-16 20:27:47,241:INFO:LdaMulticore imported successfully
+2023-03-16 20:32:26,789:INFO:LdaMulticore trained successfully
+2023-03-16 20:32:26,793:INFO:LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100)
+2023-03-16 20:32:26,793:INFO:create_model() succesfully completed......................................
+2023-03-16 20:32:26,803:INFO:Initializing assign_model()
+2023-03-16 20:32:26,803:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 20:32:26,803:INFO:Determining model type
+2023-03-16 20:32:26,803:INFO:model type: lda
+2023-03-16 20:32:26,803:INFO:Checking exceptions
+2023-03-16 20:32:26,803:INFO:Preloading libraries
+2023-03-16 20:32:26,803:INFO:Preparing display monitor
+2023-03-16 20:32:39,302:INFO:(41159, 12)
+2023-03-16 20:32:39,302:INFO:assign_model() succesfully completed......................................
+2023-03-16 20:32:39,950:INFO:Initializing predict_model()
+2023-03-16 20:32:39,950:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True,
+                                      features_todrop=['UserName', 'ScreenName',
+                                                       'Location', 'TweetAt',
+                                                       'OriginalTweet',
+                                                       'Topic_0', 'Topic_1',
+                                                       'Topic_2', 'Topic_3'],
+                                      id_columns=['UserName', 'ScreenName'],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Sentiment',
+                                      time_features=[])),
+                ('im...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=2532,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False)]],
+         verbose=False), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-03-16 20:32:39,950:INFO:Checking exceptions
+2023-03-16 20:32:39,950:INFO:Preloading libraries
+2023-03-16 20:34:24,204:INFO:Initializing load_model()
+2023-03-16 20:34:24,204:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 20:34:44,751:INFO:PyCaret NLP Module
+2023-03-16 20:34:44,753:INFO:version 2.3.10
+2023-03-16 20:34:44,753:INFO:Initializing setup()
+2023-03-16 20:34:44,753:INFO:USI: dad5
+2023-03-16 20:34:44,753:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 20:34:44,753:INFO:Checking environment
+2023-03-16 20:34:44,753:INFO:python_version: 3.8.2
+2023-03-16 20:34:44,753:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 20:34:44,754:INFO:machine: x86_64
+2023-03-16 20:34:44,775:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 20:34:44,775:INFO:Memory: svmem(total=8589934592, available=2016972800, percent=76.5, used=4619390976, free=37040128, active=1980620800, inactive=1682722816, wired=2638770176)
+2023-03-16 20:34:44,775:INFO:Physical Core: 2
+2023-03-16 20:34:44,776:INFO:Logical Core: 4
+2023-03-16 20:34:44,776:INFO:Checking libraries
+2023-03-16 20:34:44,776:INFO:pd==1.5.3
+2023-03-16 20:34:44,776:INFO:numpy==1.20.3
+2023-03-16 20:34:45,043:INFO:gensim==3.8.3
+2023-03-16 20:34:46,713:INFO:spacy==3.5.0
+2023-03-16 20:34:47,711:INFO:nltk==3.7
+2023-03-16 20:34:47,798:INFO:textblob==0.17.1
+2023-03-16 20:34:47,853:INFO:pyLDAvis==3.2.2
+2023-03-16 20:34:47,884:INFO:wordcloud==1.8.2.2
+2023-03-16 20:34:47,885:INFO:mlflow==2.1.1
+2023-03-16 20:34:47,885:INFO:Checking Exceptions
+2023-03-16 20:34:50,725:INFO:Preloading libraries
+2023-03-16 20:34:50,725:INFO:Preparing display monitor
+2023-03-16 20:34:50,829:INFO:Importing libraries
+2023-03-16 20:34:50,831:INFO:Declaring global variables
+2023-03-16 20:34:50,836:INFO:Input provided : dataframe
+2023-03-16 20:34:50,837:INFO:session_id set to : 123
+2023-03-16 20:34:50,837:INFO:Copying training dataset
+2023-03-16 20:34:50,860:INFO:Importing stopwords from nltk
+2023-03-16 20:34:51,040:INFO:Removing numeric characters from the text
+2023-03-16 20:34:52,019:INFO:Removing special characters from the text
+2023-03-16 20:34:56,323:INFO:Tokenizing Words
+2023-03-16 20:35:03,065:INFO:Removing stopwords
+2023-03-16 20:35:13,630:INFO:Extracting Bigrams
+2023-03-16 20:35:33,686:INFO:Extracting Trigrams
+2023-03-16 20:35:56,488:INFO:Lemmatizing tokens
+2023-03-16 20:37:35,868:INFO:Initializing load_model()
+2023-03-16 20:37:35,869:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 20:38:23,193:INFO:PyCaret NLP Module
+2023-03-16 20:38:23,193:INFO:version 2.3.10
+2023-03-16 20:38:23,193:INFO:Initializing setup()
+2023-03-16 20:38:23,194:INFO:USI: 1dbb
+2023-03-16 20:38:23,194:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 20:38:23,194:INFO:Checking environment
+2023-03-16 20:38:23,194:INFO:python_version: 3.8.2
+2023-03-16 20:38:23,195:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 20:38:23,195:INFO:machine: x86_64
+2023-03-16 20:38:23,212:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 20:38:23,213:INFO:Memory: svmem(total=8589934592, available=1969553408, percent=77.1, used=4563918848, free=36331520, active=1930788864, inactive=1802309632, wired=2633129984)
+2023-03-16 20:38:23,214:INFO:Physical Core: 2
+2023-03-16 20:38:23,214:INFO:Logical Core: 4
+2023-03-16 20:38:23,214:INFO:Checking libraries
+2023-03-16 20:38:23,214:INFO:pd==1.5.3
+2023-03-16 20:38:23,214:INFO:numpy==1.20.3
+2023-03-16 20:38:23,483:INFO:gensim==3.8.3
+2023-03-16 20:38:24,984:INFO:spacy==3.5.0
+2023-03-16 20:38:25,705:INFO:nltk==3.7
+2023-03-16 20:38:25,777:INFO:textblob==0.17.1
+2023-03-16 20:38:25,828:INFO:pyLDAvis==3.2.2
+2023-03-16 20:38:25,859:INFO:wordcloud==1.8.2.2
+2023-03-16 20:38:25,859:INFO:mlflow==2.1.1
+2023-03-16 20:38:25,859:INFO:Checking Exceptions
+2023-03-16 20:38:26,042:INFO:PyCaret NLP Module
+2023-03-16 20:38:26,049:INFO:version 2.3.10
+2023-03-16 20:38:26,055:INFO:Initializing setup()
+2023-03-16 20:38:26,067:INFO:USI: 30f4
+2023-03-16 20:38:26,072:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 20:38:26,079:INFO:Checking environment
+2023-03-16 20:38:26,085:INFO:python_version: 3.8.2
+2023-03-16 20:38:26,092:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 20:38:26,098:INFO:machine: x86_64
+2023-03-16 20:38:26,104:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 20:38:26,111:INFO:Memory: svmem(total=8589934592, available=1954586624, percent=77.2, used=4578549760, free=16388096, active=1940189184, inactive=1827876864, wired=2638360576)
+2023-03-16 20:38:26,118:INFO:Physical Core: 2
+2023-03-16 20:38:26,125:INFO:Logical Core: 4
+2023-03-16 20:38:26,132:INFO:Checking libraries
+2023-03-16 20:38:26,137:INFO:pd==1.5.3
+2023-03-16 20:38:26,144:INFO:numpy==1.20.3
+2023-03-16 20:38:26,150:INFO:gensim==3.8.3
+2023-03-16 20:38:26,159:INFO:spacy==3.5.0
+2023-03-16 20:38:26,165:INFO:nltk==3.7
+2023-03-16 20:38:26,171:INFO:textblob==0.17.1
+2023-03-16 20:38:26,178:INFO:pyLDAvis==3.2.2
+2023-03-16 20:38:26,178:INFO:wordcloud==1.8.2.2
+2023-03-16 20:38:26,185:INFO:mlflow==2.1.1
+2023-03-16 20:38:26,192:INFO:Checking Exceptions
+2023-03-16 20:38:27,930:INFO:Preloading libraries
+2023-03-16 20:38:27,931:INFO:Preparing display monitor
+2023-03-16 20:38:27,951:INFO:Preloading libraries
+2023-03-16 20:38:27,953:INFO:Preparing display monitor
+2023-03-16 20:38:27,973:INFO:Importing libraries
+2023-03-16 20:38:27,974:INFO:Declaring global variables
+2023-03-16 20:38:27,977:INFO:Input provided : dataframe
+2023-03-16 20:38:27,978:INFO:session_id set to : 123
+2023-03-16 20:38:27,979:INFO:Copying training dataset
+2023-03-16 20:38:27,996:INFO:Importing libraries
+2023-03-16 20:38:27,996:INFO:Declaring global variables
+2023-03-16 20:38:28,003:INFO:Input provided : dataframe
+2023-03-16 20:38:28,003:INFO:session_id set to : 123
+2023-03-16 20:38:28,003:INFO:Copying training dataset
+2023-03-16 20:38:28,020:INFO:Importing stopwords from nltk
+2023-03-16 20:38:28,030:INFO:Importing stopwords from nltk
+2023-03-16 20:38:28,162:INFO:Removing numeric characters from the text
+2023-03-16 20:38:28,172:INFO:Removing numeric characters from the text
+2023-03-16 20:38:29,201:INFO:Removing special characters from the text
+2023-03-16 20:38:29,256:INFO:Removing special characters from the text
+2023-03-16 20:38:34,980:INFO:Tokenizing Words
+2023-03-16 20:38:34,985:INFO:Tokenizing Words
+2023-03-16 20:38:46,402:INFO:Removing stopwords
+2023-03-16 20:38:46,453:INFO:Removing stopwords
+2023-03-16 20:38:54,111:INFO:Extracting Bigrams
+2023-03-16 20:38:54,192:INFO:Extracting Bigrams
+2023-03-16 20:39:20,451:INFO:Extracting Trigrams
+2023-03-16 20:39:20,617:INFO:Extracting Trigrams
+2023-03-16 20:39:54,277:INFO:Lemmatizing tokens
+2023-03-16 20:39:54,382:INFO:Lemmatizing tokens
+2023-03-16 20:47:17,354:INFO:Initializing load_model()
+2023-03-16 20:47:17,355:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 20:48:36,282:INFO:Initializing load_model()
+2023-03-16 20:48:36,284:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-16 20:48:59,752:INFO:PyCaret NLP Module
+2023-03-16 20:48:59,761:INFO:version 2.3.10
+2023-03-16 20:48:59,762:INFO:Initializing setup()
+2023-03-16 20:48:59,762:INFO:USI: 10cc
+2023-03-16 20:48:59,762:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 20:48:59,762:INFO:Checking environment
+2023-03-16 20:48:59,762:INFO:python_version: 3.8.2
+2023-03-16 20:48:59,762:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 20:48:59,762:INFO:machine: x86_64
+2023-03-16 20:48:59,799:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 20:48:59,799:INFO:Memory: svmem(total=8589934592, available=2136055808, percent=75.1, used=4780347392, free=47099904, active=2089377792, inactive=1927639040, wired=2690969600)
+2023-03-16 20:48:59,800:INFO:Physical Core: 2
+2023-03-16 20:48:59,800:INFO:Logical Core: 4
+2023-03-16 20:48:59,800:INFO:Checking libraries
+2023-03-16 20:48:59,800:INFO:pd==1.5.3
+2023-03-16 20:48:59,800:INFO:numpy==1.20.3
+2023-03-16 20:49:00,181:INFO:gensim==3.8.3
+2023-03-16 20:49:02,364:INFO:spacy==3.5.0
+2023-03-16 20:49:03,453:INFO:nltk==3.7
+2023-03-16 20:49:03,546:INFO:textblob==0.17.1
+2023-03-16 20:49:03,614:INFO:pyLDAvis==3.2.2
+2023-03-16 20:49:03,663:INFO:wordcloud==1.8.2.2
+2023-03-16 20:49:03,664:INFO:mlflow==2.1.1
+2023-03-16 20:49:03,664:INFO:Checking Exceptions
+2023-03-16 20:49:04,931:INFO:Preloading libraries
+2023-03-16 20:49:04,931:INFO:Preparing display monitor
+2023-03-16 20:49:04,954:INFO:Importing libraries
+2023-03-16 20:49:04,954:INFO:Declaring global variables
+2023-03-16 20:49:04,957:INFO:Input provided : dataframe
+2023-03-16 20:49:04,957:INFO:session_id set to : 123
+2023-03-16 20:49:04,957:INFO:Copying training dataset
+2023-03-16 20:49:04,972:INFO:Importing stopwords from nltk
+2023-03-16 20:49:05,084:INFO:Removing numeric characters from the text
+2023-03-16 20:49:05,676:INFO:Removing special characters from the text
+2023-03-16 20:49:09,110:INFO:Tokenizing Words
+2023-03-16 20:49:20,266:INFO:Removing stopwords
+2023-03-16 20:49:26,676:INFO:Extracting Bigrams
+2023-03-16 20:49:40,569:INFO:Extracting Trigrams
+2023-03-16 20:50:05,270:INFO:Lemmatizing tokens
+2023-03-16 20:53:20,001:INFO:Removing stopwords after lemmatizing
+2023-03-16 20:53:22,054:INFO:Creating corpus and dictionary
+2023-03-16 20:53:25,527:INFO:Compiling processed text
+2023-03-16 20:53:25,604:INFO:Compiling information grid
+2023-03-16 20:53:25,619:INFO:setup() succesfully completed......................................
+2023-03-16 20:53:25,623:INFO:Initializing create_model()
+2023-03-16 20:53:25,623:INFO:create_model(model=lda, multi_core=True, num_topics=4, verbose=True, system=True)
+2023-03-16 20:53:25,623:INFO:Checking exceptions
+2023-03-16 20:53:25,623:INFO:Preloading libraries
+2023-03-16 20:53:25,623:INFO:Preparing display monitor
+2023-03-16 20:53:25,641:INFO:Defining topic model
+2023-03-16 20:53:25,641:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 20:53:25,643:INFO:Defining num_topics parameter
+2023-03-16 20:53:25,643:INFO:num_topics set to: 4
+2023-03-16 20:53:25,654:INFO:LDA multi_core enabled
+2023-03-16 20:53:25,656:INFO:LdaMulticore imported successfully
+2023-03-16 20:57:49,826:INFO:LdaMulticore trained successfully
+2023-03-16 20:57:49,829:INFO:LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100)
+2023-03-16 20:57:49,829:INFO:create_model() succesfully completed......................................
+2023-03-16 20:57:49,831:INFO:Initializing assign_model()
+2023-03-16 20:57:49,831:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 20:57:49,832:INFO:Determining model type
+2023-03-16 20:57:49,832:INFO:model type: lda
+2023-03-16 20:57:49,832:INFO:Checking exceptions
+2023-03-16 20:57:49,832:INFO:Preloading libraries
+2023-03-16 20:57:49,832:INFO:Preparing display monitor
+2023-03-16 20:58:01,395:INFO:(41159, 12)
+2023-03-16 20:58:01,395:INFO:assign_model() succesfully completed......................................
+2023-03-16 20:58:01,974:INFO:Initializing predict_model()
+2023-03-16 20:58:01,974:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True,
+                                      features_todrop=['UserName', 'ScreenName',
+                                                       'Location', 'TweetAt',
+                                                       'OriginalTweet',
+                                                       'Topic_0', 'Topic_1',
+                                                       'Topic_2', 'Topic_3'],
+                                      id_columns=['UserName', 'ScreenName'],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Sentiment',
+                                      time_features=[])),
+                ('im...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=2532,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False)]],
+         verbose=False), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-03-16 20:58:01,974:INFO:Checking exceptions
+2023-03-16 20:58:01,974:INFO:Preloading libraries
+2023-03-16 20:58:36,023:INFO:PyCaret NLP Module
+2023-03-16 20:58:36,024:INFO:version 2.3.10
+2023-03-16 20:58:36,024:INFO:Initializing setup()
+2023-03-16 20:58:36,024:INFO:USI: b854
+2023-03-16 20:58:36,024:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-16 20:58:36,024:INFO:Checking environment
+2023-03-16 20:58:36,024:INFO:python_version: 3.8.2
+2023-03-16 20:58:36,024:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-16 20:58:36,024:INFO:machine: x86_64
+2023-03-16 20:58:36,024:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-16 20:58:36,024:INFO:Memory: svmem(total=8589934592, available=2049794048, percent=76.1, used=4606291968, free=85127168, active=1964040192, inactive=1927577600, wired=2642251776)
+2023-03-16 20:58:36,024:INFO:Physical Core: 2
+2023-03-16 20:58:36,024:INFO:Logical Core: 4
+2023-03-16 20:58:36,024:INFO:Checking libraries
+2023-03-16 20:58:36,024:INFO:pd==1.5.3
+2023-03-16 20:58:36,025:INFO:numpy==1.20.3
+2023-03-16 20:58:36,025:INFO:gensim==3.8.3
+2023-03-16 20:58:36,025:INFO:spacy==3.5.0
+2023-03-16 20:58:36,025:INFO:nltk==3.7
+2023-03-16 20:58:36,025:INFO:textblob==0.17.1
+2023-03-16 20:58:36,025:INFO:pyLDAvis==3.2.2
+2023-03-16 20:58:36,025:INFO:wordcloud==1.8.2.2
+2023-03-16 20:58:36,025:INFO:mlflow==2.1.1
+2023-03-16 20:58:36,025:INFO:Checking Exceptions
+2023-03-16 20:58:36,848:INFO:Preloading libraries
+2023-03-16 20:58:36,848:INFO:Preparing display monitor
+2023-03-16 20:58:36,860:INFO:Importing libraries
+2023-03-16 20:58:36,860:INFO:Declaring global variables
+2023-03-16 20:58:36,862:INFO:Input provided : dataframe
+2023-03-16 20:58:36,862:INFO:session_id set to : 123
+2023-03-16 20:58:36,862:INFO:Copying training dataset
+2023-03-16 20:58:36,873:INFO:Importing stopwords from nltk
+2023-03-16 20:58:36,877:INFO:Removing numeric characters from the text
+2023-03-16 20:58:37,219:INFO:Removing special characters from the text
+2023-03-16 20:58:39,908:INFO:Tokenizing Words
+2023-03-16 20:58:45,791:INFO:Removing stopwords
+2023-03-16 20:58:50,340:INFO:Extracting Bigrams
+2023-03-16 20:59:01,939:INFO:Extracting Trigrams
+2023-03-16 20:59:18,748:INFO:Lemmatizing tokens
+2023-03-16 21:03:52,175:INFO:Removing stopwords after lemmatizing
+2023-03-16 21:03:54,343:INFO:Creating corpus and dictionary
+2023-03-16 21:03:56,305:INFO:Compiling processed text
+2023-03-16 21:03:56,386:INFO:Compiling information grid
+2023-03-16 21:03:56,391:INFO:setup() succesfully completed......................................
+2023-03-16 21:03:56,585:INFO:Initializing create_model()
+2023-03-16 21:03:56,586:INFO:create_model(model=lda, multi_core=True, num_topics=4, verbose=True, system=True)
+2023-03-16 21:03:56,586:INFO:Checking exceptions
+2023-03-16 21:03:56,586:INFO:Preloading libraries
+2023-03-16 21:03:56,586:INFO:Preparing display monitor
+2023-03-16 21:03:56,595:INFO:Defining topic model
+2023-03-16 21:03:56,595:INFO:Model: Latent Dirichlet Allocation
+2023-03-16 21:03:56,595:INFO:Defining num_topics parameter
+2023-03-16 21:03:56,595:INFO:num_topics set to: 4
+2023-03-16 21:03:56,598:INFO:LDA multi_core enabled
+2023-03-16 21:03:56,598:INFO:LdaMulticore imported successfully
+2023-03-16 21:08:06,819:INFO:LdaMulticore trained successfully
+2023-03-16 21:08:06,822:INFO:LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100)
+2023-03-16 21:08:06,822:INFO:create_model() succesfully completed......................................
+2023-03-16 21:08:06,825:INFO:Initializing assign_model()
+2023-03-16 21:08:06,825:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2023-03-16 21:08:06,825:INFO:Determining model type
+2023-03-16 21:08:06,825:INFO:model type: lda
+2023-03-16 21:08:06,826:INFO:Checking exceptions
+2023-03-16 21:08:06,826:INFO:Preloading libraries
+2023-03-16 21:08:06,826:INFO:Preparing display monitor
+2023-03-16 21:08:22,339:INFO:(41159, 12)
+2023-03-16 21:08:22,339:INFO:assign_model() succesfully completed......................................
+2023-03-16 21:08:23,007:INFO:Initializing predict_model()
+2023-03-16 21:08:23,007:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True,
+                                      features_todrop=['UserName', 'ScreenName',
+                                                       'Location', 'TweetAt',
+                                                       'OriginalTweet',
+                                                       'Topic_0', 'Topic_1',
+                                                       'Topic_2', 'Topic_3'],
+                                      id_columns=['UserName', 'ScreenName'],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Sentiment',
+                                      time_features=[])),
+                ('im...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=2532,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False)]],
+         verbose=False), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-03-16 21:08:23,007:INFO:Checking exceptions
+2023-03-16 21:08:23,007:INFO:Preloading libraries
+2023-03-17 09:55:59,672:INFO:Initializing load_model()
+2023-03-17 09:55:59,674:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-17 09:58:16,581:INFO:PyCaret NLP Module
+2023-03-17 09:58:16,583:INFO:version 2.3.10
+2023-03-17 09:58:16,583:INFO:Initializing setup()
+2023-03-17 09:58:16,583:INFO:USI: 94d5
+2023-03-17 09:58:16,584:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-17 09:58:16,584:INFO:Checking environment
+2023-03-17 09:58:16,584:INFO:python_version: 3.8.2
+2023-03-17 09:58:16,584:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-17 09:58:16,584:INFO:machine: x86_64
+2023-03-17 09:58:16,606:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-17 09:58:16,607:INFO:Memory: svmem(total=8589934592, available=2150150144, percent=75.0, used=4917022720, free=69681152, active=2082021376, inactive=1966485504, wired=2835001344)
+2023-03-17 09:58:16,607:INFO:Physical Core: 2
+2023-03-17 09:58:16,607:INFO:Logical Core: 4
+2023-03-17 09:58:16,607:INFO:Checking libraries
+2023-03-17 09:58:16,607:INFO:pd==1.5.3
+2023-03-17 09:58:16,608:INFO:numpy==1.20.3
+2023-03-17 09:58:16,895:INFO:gensim==3.8.3
+2023-03-17 09:58:18,564:INFO:spacy==3.5.0
+2023-03-17 09:58:19,244:INFO:nltk==3.7
+2023-03-17 09:58:19,311:INFO:textblob==0.17.1
+2023-03-17 09:58:19,367:INFO:pyLDAvis==3.2.2
+2023-03-17 09:58:19,398:INFO:wordcloud==1.8.2.2
+2023-03-17 09:58:19,398:INFO:mlflow==2.1.1
+2023-03-17 09:58:19,398:INFO:Checking Exceptions
+2023-03-17 09:58:20,347:INFO:Preloading libraries
+2023-03-17 09:58:20,347:INFO:Preparing display monitor
+2023-03-17 09:58:20,374:INFO:Importing libraries
+2023-03-17 09:58:20,374:INFO:Declaring global variables
+2023-03-17 09:58:20,377:INFO:Input provided : dataframe
+2023-03-17 09:58:20,377:INFO:session_id set to : 123
+2023-03-17 09:58:20,377:INFO:Copying training dataset
+2023-03-17 09:58:20,400:INFO:Importing stopwords from nltk
+2023-03-17 09:58:20,651:INFO:Removing numeric characters from the text
+2023-03-17 09:58:20,998:INFO:Removing special characters from the text
+2023-03-17 09:58:23,252:INFO:Tokenizing Words
+2023-03-17 09:58:28,096:INFO:Removing stopwords
+2023-03-17 09:58:31,429:INFO:Extracting Bigrams
+2023-03-17 09:58:41,453:INFO:Extracting Trigrams
+2023-03-17 09:58:58,047:INFO:Lemmatizing tokens
+2023-03-17 10:03:14,900:INFO:Initializing load_model()
+2023-03-17 10:03:14,901:INFO:load_model(model_name=models/lr_baseline, platform=None, authentication=None, verbose=True)
+2023-03-17 10:04:31,962:INFO:PyCaret NLP Module
+2023-03-17 10:04:31,963:INFO:version 2.3.10
+2023-03-17 10:04:31,964:INFO:Initializing setup()
+2023-03-17 10:04:31,964:INFO:USI: 6842
+2023-03-17 10:04:31,964:INFO:setup(data=(41159, 6), target=OriginalTweet, custom_stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus', 'coronavirus', 'pandemic', 'go'], html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_data=False, verbose=True)
+2023-03-17 10:04:31,964:INFO:Checking environment
+2023-03-17 10:04:31,964:INFO:python_version: 3.8.2
+2023-03-17 10:04:31,964:INFO:python_build: ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18')
+2023-03-17 10:04:31,965:INFO:machine: x86_64
+2023-03-17 10:04:31,990:INFO:platform: macOS-10.15.7-x86_64-i386-64bit
+2023-03-17 10:04:31,991:INFO:Memory: svmem(total=8589934592, available=2030473216, percent=76.4, used=4804087808, free=24776704, active=2007228416, inactive=2003955712, wired=2796859392)
+2023-03-17 10:04:31,992:INFO:Physical Core: 2
+2023-03-17 10:04:31,992:INFO:Logical Core: 4
+2023-03-17 10:04:31,992:INFO:Checking libraries
+2023-03-17 10:04:31,992:INFO:pd==1.5.3
+2023-03-17 10:04:31,992:INFO:numpy==1.20.3
+2023-03-17 10:04:32,260:INFO:gensim==3.8.3
+2023-03-17 10:04:33,819:INFO:spacy==3.5.0
+2023-03-17 10:04:34,473:INFO:nltk==3.7
+2023-03-17 10:04:34,540:INFO:textblob==0.17.1
+2023-03-17 10:04:34,585:INFO:pyLDAvis==3.2.2
+2023-03-17 10:04:34,614:INFO:wordcloud==1.8.2.2
+2023-03-17 10:04:34,614:INFO:mlflow==2.1.1
+2023-03-17 10:04:34,614:INFO:Checking Exceptions
+2023-03-17 10:04:35,724:INFO:Preloading libraries
+2023-03-17 10:04:35,724:INFO:Preparing display monitor
+2023-03-17 10:04:35,750:INFO:Importing libraries
+2023-03-17 10:04:35,751:INFO:Declaring global variables
+2023-03-17 10:04:35,752:INFO:Input provided : dataframe
+2023-03-17 10:04:35,752:INFO:session_id set to : 123
+2023-03-17 10:04:35,752:INFO:Copying training dataset
+2023-03-17 10:04:35,790:INFO:Importing stopwords from nltk
+2023-03-17 10:04:35,943:INFO:Removing numeric characters from the text
+2023-03-17 10:04:36,326:INFO:Removing special characters from the text
+2023-03-17 10:04:38,865:INFO:Tokenizing Words
+2023-03-17 10:04:44,392:INFO:Removing stopwords
+2023-03-17 10:04:47,991:INFO:Extracting Bigrams
+2023-03-17 10:04:59,467:INFO:Extracting Trigrams
+2023-03-17 10:05:18,487:INFO:Lemmatizing tokens
+2023-03-17 10:09:48,414:INFO:Removing stopwords after lemmatizing
+2023-03-17 10:09:50,562:INFO:Creating corpus and dictionary
+2023-03-17 10:09:53,104:INFO:Compiling processed text
+2023-03-17 10:09:53,155:INFO:Compiling information grid
+2023-03-17 10:09:53,160:INFO:setup() succesfully completed......................................
+2023-03-17 10:09:53,160:INFO:Initializing create_model()
+2023-03-17 10:09:53,161:INFO:create_model(model=lda, multi_core=True, num_topics=4, verbose=True, system=True)
+2023-03-17 10:09:53,161:INFO:Checking exceptions
+2023-03-17 10:09:53,161:INFO:Preloading libraries
+2023-03-17 10:09:53,161:INFO:Preparing display monitor
+2023-03-17 10:09:53,170:INFO:Defining topic model
+2023-03-17 10:09:53,170:INFO:Model: Latent Dirichlet Allocation
+2023-03-17 10:09:53,170:INFO:Defining num_topics parameter
+2023-03-17 10:09:53,170:INFO:num_topics set to: 4
+2023-03-17 10:09:53,175:INFO:LDA multi_core enabled
+2023-03-17 10:09:53,177:INFO:LdaMulticore imported successfully
+2023-03-17 10:20:47,307:INFO:LdaMulticore trained successfully
+2023-03-17 10:20:47,366:INFO:LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100)
+2023-03-17 10:20:47,367:INFO:create_model() succesfully completed......................................
+2023-03-17 10:20:47,465:INFO:Initializing assign_model()
+2023-03-17 10:20:47,467:INFO:assign_model(model=LdaModel(num_terms=46309, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2023-03-17 10:20:47,467:INFO:Determining model type
+2023-03-17 10:20:47,468:INFO:model type: lda
+2023-03-17 10:20:47,468:INFO:Checking exceptions
+2023-03-17 10:20:47,468:INFO:Preloading libraries
+2023-03-17 10:20:47,469:INFO:Preparing display monitor
+2023-03-17 10:21:17,417:INFO:(41159, 12)
+2023-03-17 10:21:17,417:INFO:assign_model() succesfully completed......................................
+2023-03-17 10:21:18,265:INFO:Initializing predict_model()
+2023-03-17 10:21:18,265:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True,
+                                      features_todrop=['UserName', 'ScreenName',
+                                                       'Location', 'TweetAt',
+                                                       'OriginalTweet',
+                                                       'Topic_0', 'Topic_1',
+                                                       'Topic_2', 'Topic_3'],
+                                      id_columns=['UserName', 'ScreenName'],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Sentiment',
+                                      time_features=[])),
+                ('im...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=1.0, class_weight=None, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=2532,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False)]],
+         verbose=False), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-03-17 10:21:18,266:INFO:Checking exceptions
+2023-03-17 10:21:18,266:INFO:Preloading libraries

@@ -1,0 +1,16 @@
+body {
+    background-color: #1DA1F2;
+}
+
+h1{
+    color: white;
+}
+
+textarea{
+    resize: none;
+}
+
+.btn-primary{
+    background-color: #1DA1F2 !important;
+    border-color: #1DA1F2 !important;
+}
