@@ -1,1 +1,1 @@
-UserName,ScreenName,Location,TweetAt,OriginalTweet,Sentiment,Topic_0,Topic_1,Topic_2,Topic_3,Dominant_Topic,Perc_Dominant_Topic
+UserName,ScreenName,Location,TweetAt,OriginalTweet,Sentiment,encoded_sentiment,neg,neu,pos,compound,affin

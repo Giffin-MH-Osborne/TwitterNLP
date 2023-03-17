@@ -1,15 +1,30 @@
 from flask import Flask, request, url_for, redirect, render_template, jsonify
-import pandas as pd
-import pycaret.nlp as nlp
-import pycaret.classification as classify
-import pandas as pd
 import numpy as np
 from datetime import date
-import csv
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+import pandas as pd
+from afinn import Afinn
+from pycaret.classification import *
+nltk.download('vader_lexicon')
+
+def sentiment_encoder(sentiment:str):
+    if sentiment == 'Extremely Negative':
+        return -2
+    elif sentiment == 'Negative':
+        return -1
+    elif sentiment == 'Neutral':
+        return 0
+    elif sentiment == 'Positive':
+        return 1
+    elif sentiment == 'Extremely Positive':
+        return 2
+
+data = pd.read_csv('data/Corona_NLP_train.csv', encoding='latin-1')
 
 app = Flask(__name__, template_folder='pages')
-# clustering_model = load_model('models/lda_unsupervised')
-classification_model = classify.load_model('models/lr_baseline')
+
+classification_model = load_model('models/gbc_classifier')
 
 data = pd.read_csv('data/Corona_NLP_train.csv', encoding='latin1')
 username = int(data.iloc[-2]['UserName']) + 1
@@ -33,11 +48,6 @@ with open('cols_supervised.csv', 'r') as f:
 def home():
     return render_template('index.html', pred='', date=today)
 
-""" 
-Hardcoded the UserName and ScreenName
-they are integers generated based on the number of data in the dataset.
-
-"""
 
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
@@ -58,24 +68,33 @@ def predict():
         
         user_df = pd.DataFrame([user_data], columns=cols_unsupervised)
 
-        combined_df = data.append(user_df, ignore_index=True)
+        user_df['encoded_sentiment'] = user_df.apply(lambda row: sentiment_encoder(row['Sentiment']),axis=1)
 
-    stopwords=['covid', 'co', 'https', 'pandemic', 'corona', 'virus','coronavirus', 'pandemic', 'go']
-    setup_nlp = nlp.setup(data=combined_df, target='OriginalTweet', session_id=123, custom_stopwords=stopwords)
-    lda= nlp.create_model('lda', num_topics=4, multi_core=True)
-    lda_results = nlp.assign_model(lda)
+        sia = SentimentIntensityAnalyzer()
 
-    lda_results.to_csv('results.csv')
+        af = Afinn()
 
-    user_data = lda_results.iloc[-1]
-
-    user_data = user_data.tolist()
-
-    final = pd.DataFrame([user_data], columns=cols_supervised)
-
-    predict = classify.predict_model(classification_model, data=final, round=0)
-
-    label = predict.Label[0]
+        user_df['neg'] = user_df.apply(lambda row: sia.polarity_scores(row['OriginalTweet'])['neg'],axis=1)
+        user_df['neu'] = user_df.apply(lambda row: sia.polarity_scores(row['OriginalTweet'])['neu'],axis=1)
+        user_df['pos'] = user_df.apply(lambda row: sia.polarity_scores(row['OriginalTweet'])['pos'],axis=1)
+        user_df['compound'] = user_df.apply(lambda row: sia.polarity_scores(row['OriginalTweet'])['compound'],axis=1)
+        user_df['affin'] = user_df.apply(lambda row: af.score(row['OriginalTweet']),axis=1)
 
 
-    return render_template('index.html', pred='This tweet presents a {} Sentiment'.format(label), date=today)
+        predict = predict_model(classification_model, data=user_df, round=0)
+
+        label = predict.Label[0]
+
+        if(label == 0):
+            result = 'a Neutral'
+        if(label == 1):
+            result = 'a Positive'
+        if(label == 2):
+            result = 'an Extremely Positive'
+        if(label == -1):
+            result = 'a Negative'
+        if(label == -2):
+            result = 'an Extremely Negative'
+
+
+    return render_template('index.html', pred='This tweet presents {} Sentiment'.format(result), date=today)
